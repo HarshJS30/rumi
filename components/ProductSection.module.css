@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Montserrat:wght@400;500&display=swap');
+
+.section {
+  width: 100%;
+  background: #f7f1ea;
+  padding: 40px 0;
+  overflow-x: hidden;
+}
+
+.header {
+  max-width: 640px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.eyebrow {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #91806d;
+  margin-bottom: 14px;
+}
+
+.heading {
+  font-family: 'Jost', sans-serif;
+  font-weight: 300;
+  font-size: clamp(28px, 6vw, 46px);
+  line-height: 1.15;
+  margin: 0 0 14px;
+  color: #2c1f14;
+  letter-spacing: -0.01em;
+}
+
+.sub {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.7;
+  color: rgba(44, 31, 20, 0.65);
+  margin: 0;
+}
+
+/* Always a horizontally scrollable row, on every screen size */
+.scrollRow {
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+}
+
+.scrollRow::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollTrack {
+  display: flex;
+  gap: 12px;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 20px 8px;
+}
+
+.viewAll {
+  display: block;
+  width: fit-content;
+  margin: 20px auto 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #2c1f14;
+  border-bottom: 1px solid #2c1f14;
+  padding-bottom: 4px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.viewAll:hover {
+  color: #91806d;
+  border-color: #91806d;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding: 56px 0;
+  }
+
+  .header {
+    margin-bottom: 48px;
+    padding: 0 32px;
+  }
+
+  .scrollTrack {
+    gap: 24px;
+    padding: 0 32px 12px;
+  }
+
+  .viewAll {
+    margin-top: 24px;
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    padding: 0 64px;
+  }
+
+  .scrollTrack {
+    padding: 0 64px 12px;
+  }
+}

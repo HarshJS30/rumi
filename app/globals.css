@@ -1,0 +1,22 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+main {
+    width: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+    display: none;
+}

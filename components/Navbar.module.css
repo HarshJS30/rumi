@@ -1,0 +1,95 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+  min-height: 68px;
+  padding: 0 32px;
+  background: rgba(247, 241, 234, 0.96);
+  border-bottom: 1px solid rgba(44, 31, 20, 0.1);
+}
+
+.logo {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  text-decoration: none;
+}
+
+.logoImage {
+  display: block;
+  width: 132px;
+  height: 40px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.link,
+.shopLink {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #2c1f14;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.link:hover,
+.shopLink:hover {
+  color: #91806d;
+}
+
+.shopLink {
+  justify-self: end;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  color: #2c1f14;
+}
+
+@media (max-width: 640px) {
+  .navbar {
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    min-height: 60px;
+    gap: 10px;
+    padding: 0 12px;
+  }
+
+  .logoImage {
+    width: 96px;
+    height: 34px;
+  }
+
+  .nav {
+    justify-self: stretch;
+    justify-content: flex-end;
+    gap: clamp(8px, 2.5vw, 14px);
+    min-width: 0;
+  }
+
+  .link,
+  .shopLink {
+    font-size: clamp(8px, 2.3vw, 9px);
+    letter-spacing: 0.04em;
+  }
+
+  .shopLink {
+    width: 32px;
+    height: 32px;
+  }
+}

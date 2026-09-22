@@ -5,18 +5,15 @@ import styles from "./Hero.module.css";
 
 const slides = [
   {
-    desktopImage: "/demo_pic4.png",
-    mobileImage: "/demo_pic1.jpg",
+    image: "/pink_anarkali_1.png",
     label: "New Arrivals",
   },
   {
-    desktopImage: "/demo_pic5.png",
-    mobileImage: "/demo_pic2.jpg",
+    image: "/anarkali_white_heavy_1.png",
     label: "Festive Edit",
   },
   {
-    desktopImage: "/demo_pic6.png",
-    mobileImage: "/demo_pic3.jpg",
+    image: "/kota_chicken_pink_green_1.png",
     label: "Summer Collection",
   },
 ];
@@ -41,14 +38,12 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.imageWrap}>
-        <picture key={active} className={styles.picture}>
-          <source media="(max-width: 767px)" srcSet={slides[active].mobileImage} />
-          <img
-            src={slides[active].desktopImage}
-            alt={slides[active].label}
-            className={styles.image}
-          />
-        </picture>
+        <img
+          key={active}
+          src={slides[active].image}
+          alt={slides[active].label}
+          className={styles.image}
+        />
         <div className={styles.scrim} />
 
         <div className={styles.content}>
