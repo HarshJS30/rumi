@@ -20,6 +20,17 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Refresh product photos
+
+Downloading the Google Drive folder only updates `raw-photos`; the website uses optimized images and generated catalogue data. After downloading, run:
+
+```bash
+node scripts/optimize-photos.mjs
+node scripts/build-catalogue.mjs
+```
+
+Commit and deploy the generated `public/photoshoot`, `data/photoshoot.json`, and `data/catalogue.json` files with the script changes.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

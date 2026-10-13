@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function StoreFooter() { return <footer className="store-footer" id="about"><Link className="brand" href="/">RUMI<span>STUDIO</span></Link><p>Thoughtful pieces for everyday occasions.</p><div><Link href="/">Shop the collection</Link><a href="https://wa.me/918796677991" target="_blank" rel="noreferrer">Get in touch</a></div><small>© {new Date().getFullYear()} Rumi Studio</small></footer>; }

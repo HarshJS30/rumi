@@ -1,61 +1,76 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
+import { formatPrice } from "../lib/products";
 import styles from "./ProductCard.module.css";
 
-const DEFAULT_SIZES = ["XS", "S", "M", "L", "XL"];
-
-export default function ProductCard({
-  name,
-  price,
-  image,
-  hoverImage,
-  href = "#",
-  sizes = DEFAULT_SIZES,
-}) {
+export default function ProductCard({ product }) {
   const [selectedSize, setSelectedSize] = useState(null);
+  const href = `/products/${product.slug}`;
+  const name = product.name;
 
   return (
     <article className={styles.card}>
-      <a href={href} className={styles.imageLink} aria-label={name}>
+      <Link href={href} className={styles.imageLink} aria-label={name}>
         <div className={styles.imageWrap}>
-          <img src={image} alt={name} className={`${styles.image} ${styles.imageBase}`} />
-          {hoverImage && (
-            <img
-              src={hoverImage}
+          <Image
+            src={product.images[0]}
+            alt={name}
+            fill
+            sizes="(min-width: 768px) 260px, 43vw"
+            className={`${styles.image} ${styles.imageBase}`}
+          />
+          {product.images[1] && (
+            <Image
+              src={product.images[1]}
               alt=""
               aria-hidden="true"
+              fill
+              sizes="(min-width: 768px) 260px, 43vw"
               className={`${styles.image} ${styles.imageHover}`}
             />
           )}
         </div>
-      </a>
+      </Link>
 
       <div className={styles.info}>
-        <a href={href} className={styles.name}>
+        <Link href={href} className={styles.name}>
           {name}
-        </a>
+        </Link>
 
-        <div className={styles.sizes}>
-          {sizes.map((size) => (
-            <button
-              key={size}
-              type="button"
-              className={`${styles.sizePill} ${
-                selectedSize === size ? styles.sizePillActive : ""
-              }`}
-              onClick={() => setSelectedSize(size)}
-            >
-              {size}
-            </button>
-          ))}
-        </div>
+        {(product.sizes.length > 0 || product.size.toLowerCase() === "freesize") && (
+          <div className={styles.sizes} role="group" aria-label="Available sizes">
+            {product.sizes.length > 0
+              ? product.sizes.map(({ size, bookable }) => (
+                  <button
+                    key={size}
+                    type="button"
+                    className={`${styles.sizePill} ${
+                      selectedSize === size ? styles.sizePillActive : ""
+                    }`}
+                    aria-label={`Size ${size}${bookable ? "" : " unavailable"}`}
+                    aria-pressed={selectedSize === size}
+                    disabled={!bookable}
+                    onClick={() => setSelectedSize(size)}
+                  >
+                    {size}
+                  </button>
+                ))
+              : <span className={styles.sizePill}>Free size</span>}
+          </div>
+        )}
 
-        <span className={styles.price}>{price}</span>
+        <span className={styles.price}>{formatPrice(product.basePrice)}</span>
 
-        <button type="button" className={styles.addToCart}>
-          Add to Cart
-        </button>
+        <Link
+          href={href}
+          className={styles.addToCart}
+          style={{ textDecoration: "none", textAlign: "center" }}
+        >
+          View this product
+        </Link>
       </div>
     </article>
   );

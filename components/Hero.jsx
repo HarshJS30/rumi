@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 import styles from "./Hero.module.css";
 
 const slides = [
@@ -38,10 +40,13 @@ export default function Hero() {
   return (
     <section className={styles.hero}>
       <div className={styles.imageWrap}>
-        <img
+        <Image
           key={active}
           src={slides[active].image}
           alt={slides[active].label}
+          fill
+          sizes="100vw"
+          preload={active === 0}
           className={styles.image}
         />
         <div className={styles.scrim} />
@@ -54,9 +59,9 @@ export default function Hero() {
           <p className={styles.sub}>
             Handcrafted Lucknowi Chikankari — elegance in every stitch.
           </p>
-          <a href="/shop" className={styles.cta}>
-            Explore Collection
-          </a>
+          <Link href="/shop" className={styles.cta}>
+            View whole collection
+          </Link>
         </div>
 
         <div className={styles.dots}>

@@ -1,6 +1,7 @@
 "use client";
 
 import ProductCard from "./ProductCard";
+import Link from "next/link";
 import styles from "./ProductSection.module.css";
 
 export default function ProductSection({
@@ -22,16 +23,16 @@ export default function ProductSection({
 
       <div className={styles.scrollRow}>
         <div className={styles.scrollTrack}>
-          {products.map((p) => (
-            <ProductCard key={p.name} {...p} />
+          {products.map((product) => (
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </div>
 
       {viewAllHref && (
-        <a href={viewAllHref} className={styles.viewAll}>
+        <Link href={viewAllHref} className={styles.viewAll}>
           {viewAllLabel}
-        </a>
+        </Link>
       )}
     </section>
   );
