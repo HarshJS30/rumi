@@ -7,7 +7,7 @@
   align-items: center;
   gap: 24px;
   width: 100%;
-  min-height: 68px;
+  min-height: 76px;
   padding: 0 32px;
   background: rgba(247, 241, 234, 0.96);
   border-bottom: 1px solid rgba(44, 31, 20, 0.1);
@@ -17,14 +17,14 @@
   justify-self: start;
   display: inline-flex;
   align-items: center;
-  height: 40px;
+  height: 52px;
   text-decoration: none;
 }
 
 .logoImage {
   display: block;
-  width: 132px;
-  height: 40px;
+  width: 172px;
+  height: 52px;
   object-fit: contain;
   object-position: left center;
 }
@@ -32,7 +32,7 @@
 .nav {
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: clamp(14px, 2vw, 28px);
 }
 
 .link,
@@ -45,6 +45,13 @@
   color: #2c1f14;
   text-decoration: none;
   white-space: nowrap;
+}
+
+.actions {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .link:hover,
@@ -65,31 +72,57 @@
 @media (max-width: 640px) {
   .navbar {
     grid-template-columns: auto minmax(0, 1fr) auto;
-    min-height: 60px;
-    gap: 10px;
-    padding: 0 12px;
+    grid-template-rows: 52px auto;
+    min-height: 0;
+    gap: 0;
+    padding: 7px 12px 0;
+  }
+
+  .logo {
+    grid-column: 1;
+    grid-row: 1;
   }
 
   .logoImage {
-    width: 96px;
-    height: 34px;
+    width: 125px;
+    height: 38px;
   }
 
   .nav {
-    justify-self: stretch;
-    justify-content: flex-end;
-    gap: clamp(8px, 2.5vw, 14px);
+    grid-column: 1 / -1;
+    grid-row: 2;
+    justify-self: center;
+    justify-content: center;
+    gap: clamp(10px, 3vw, 18px);
     min-width: 0;
+    width: 100%;
+    padding: 8px 0 10px;
   }
 
   .link,
   .shopLink {
-    font-size: clamp(8px, 2.3vw, 9px);
+    font-size: clamp(8px, 2.6vw, 10px);
     letter-spacing: 0.04em;
+  }
+
+  .actions {
+    grid-column: 3;
+    grid-row: 1;
+    gap: 2px;
   }
 
   .shopLink {
     width: 32px;
     height: 32px;
+  }
+}
+
+@media (max-width: 360px) {
+  .nav {
+    gap: 9px;
+  }
+
+  .link {
+    font-size: 8px;
   }
 }

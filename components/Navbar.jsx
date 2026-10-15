@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { ShoppingBag } from "lucide-react";
+import SearchControl from "./SearchControl";
 import styles from "./Navbar.module.css";
 
 const links = [
   { label: "New Arrivals", href: "#new-arrivals" },
+  { label: "Bestsellers", href: "/shop#products" },
   { label: "Women", href: "#womens-edit" },
   { label: "Men", href: "#mens-edit" },
 ];
@@ -15,8 +17,8 @@ export default function Navbar() {
         <Image
           src="/Rumi_RGB_Black.png"
           alt="Rumi Studio"
-          width={132}
-          height={40}
+          width={172}
+          height={52}
           className={styles.logoImage}
           priority
         />
@@ -30,9 +32,12 @@ export default function Navbar() {
         ))}
       </nav>
 
-      <a href="/shop" className={styles.shopLink} aria-label="Shop">
-        <ShoppingBag size={20} strokeWidth={1.6} aria-hidden="true" />
-      </a>
+      <div className={styles.actions}>
+        <SearchControl />
+        <a href="/shop" className={styles.shopLink} aria-label="Shop">
+          <ShoppingBag size={20} strokeWidth={1.6} aria-hidden="true" />
+        </a>
+      </div>
     </header>
   );
 }

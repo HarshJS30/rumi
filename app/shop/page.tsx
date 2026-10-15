@@ -7,6 +7,13 @@ export const metadata: Metadata = {
     "Explore the complete Rumi Studio collection of considered Indian wear, kurtas, and handcrafted details.",
 };
 
-export default function ShopPage() {
-  return <ProductListing />;
+export default async function ShopPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ q?: string | string[] }>;
+}) {
+  const { q } = await searchParams;
+  const initialQuery = Array.isArray(q) ? q[0] ?? "" : q ?? "";
+
+  return <ProductListing initialQuery={initialQuery} />;
 }

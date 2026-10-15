@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState } from "react";
 import { useCart } from "../lib/cart";
+import ProductStory from "./ProductStory";
 import {
   formatPrice,
   getRelatedProducts,
@@ -251,10 +252,7 @@ export default function ProductDetail({ product }: { product: Product }) {
           </section>
 
           <div className="product-accordions">
-            <details open>
-              <summary>Story of this piece</summary>
-              <p>{product.description}</p>
-            </details>
+            <ProductStory />
             <details>
               <summary>Returns &amp; exchanges</summary>
               <p>
