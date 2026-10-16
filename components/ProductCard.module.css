@@ -73,7 +73,7 @@
 
 .info {
   flex: 1;
-  min-height: 184px;
+  min-height: 96px;
   padding-top: 10px;
   display: flex;
   flex-direction: column;
@@ -125,6 +125,7 @@
 }
 
 .price {
+  margin-top: auto;
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   font-weight: 500;
@@ -132,7 +133,6 @@
 }
 
 .addToCart {
-  margin-top: auto;
   appearance: none;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
@@ -156,6 +156,15 @@
 @media (max-width: 767px) {
   .card {
     width: calc((100vw - 2 * var(--section-gutter) - 12px) / 2);
+  }
+
+  .info {
+    min-height: 0;
+    gap: 4px;
+  }
+
+  .price {
+    margin-top: 4px;
   }
 }
 

@@ -56,7 +56,7 @@ export default function ProductListing({
   return (
     <main>
       <section className="collection-hero" id="collection">
-        <p className="eyebrow">Rumi Studio · A considered wardrobe</p>
+        <p className="eyebrow">Rumi Ethnic · A considered wardrobe</p>
         <h1>Pieces to keep close.</h1>
         <p>
           Discover easy silhouettes and thoughtful details, made for the
@@ -94,16 +94,21 @@ export default function ProductListing({
                 ))}
               </select>
             </label>
-            <fieldset className="color-filter">
-              <legend>Color</legend>
-              {colors.map((item) => {
-                const count = filterProducts.filter((product) => product.colorGroup?.includes(item)).length;
-                return <label key={item}>
-                  <input type="checkbox" checked={colorsSelected.includes(item)} onChange={(event) => setColorsSelected((current) => event.target.checked ? [...current, item] : current.filter((value) => value !== item))} />
-                  {item} <span>({count})</span>
-                </label>;
-              })}
-            </fieldset>
+            <details className="color-filter">
+              <summary>
+                <span>Color</span>
+                <span>{colorsSelected.length ? `${colorsSelected.length} selected` : "All colors"}</span>
+              </summary>
+              <fieldset className="color-options" aria-label="Filter by color">
+                {colors.map((item) => {
+                  const count = filterProducts.filter((product) => product.colorGroup?.includes(item)).length;
+                  return <label key={item}>
+                    <input type="checkbox" checked={colorsSelected.includes(item)} onChange={(event) => setColorsSelected((current) => event.target.checked ? [...current, item] : current.filter((value) => value !== item))} />
+                    {item} <span>({count})</span>
+                  </label>;
+                })}
+              </fieldset>
+            </details>
             <label>
               Fabric
               <select

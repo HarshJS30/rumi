@@ -42,7 +42,7 @@ const ADD_ONS: ProductOption[] = [
   { id: "matching-inner", name: "Add a matching inner", priceAdjustment: 300, description: "An optional finishing touch for your order." },
   { id: "gift-wrap", name: "Gift wrap", priceAdjustment: 150, description: "An optional finishing touch for your order." },
 ];
-const DESCRIPTION = "A considered piece from the Rumi Studio collection. Contact us on WhatsApp for sizing and availability details.";
+const DESCRIPTION = "A considered piece from the Rumi Ethnic collection. Contact us on WhatsApp for sizing and availability details.";
 type CatalogueRow = Omit<Product, "description" | "basePrice" | "options">;
 
 export const products: Product[] = (catalogue as CatalogueRow[]).map((row) => {
@@ -86,7 +86,16 @@ export const getDistinctCollectionProducts = (collection: string, excludedCollec
     if (!product.collections.includes(collection)) return false;
     const identifier = product.identifier ?? product.id;
     const name = product.name.trim().toLowerCase();
-    if (seenIdentifiers.has(identifier) || seenNames.has(name)) return false;
+    const sharedGenderProduct =
+      (collection === "men" || collection === "women") &&
+      product.collections.includes("men") &&
+      product.collections.includes("women");
+    if (
+      !sharedGenderProduct &&
+      (seenIdentifiers.has(identifier) || seenNames.has(name))
+    ) {
+      return false;
+    }
     seenIdentifiers.add(identifier);
     seenNames.add(name);
     return true;

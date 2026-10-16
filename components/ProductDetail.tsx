@@ -26,7 +26,7 @@ export default function ProductDetail({ product }: { product: Product }) {
   const hasBookableSizes = product.sizes.some((size) => size.bookable);
   const relatedProducts = getRelatedProducts(product);
   const orderMessage = [
-    "Hello Rumi Studio, I would like to order:",
+    "Hello Rumi Ethnic, I would like to order:",
     product.websiteName,
     `Set: ${selectedSet?.name ?? "Please advise"}`,
     ...(selectedSize ? [`Size: ${selectedSize}`] : []),
@@ -102,7 +102,7 @@ export default function ProductDetail({ product }: { product: Product }) {
         </section>
 
         <section className="product-info">
-          <p className="eyebrow">Rumi Studio{product.category && <> · {product.category}</>}</p>
+          <p className="eyebrow">Rumi Ethnic{product.category && <> · {product.category}</>}</p>
           <h1>{product.websiteName}</h1>
           {product.color && <p className="detail-color">{product.color}</p>}
           <p className="detail-price">{formatPrice(price)}</p>

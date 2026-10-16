@@ -5,8 +5,8 @@ import { CartProvider } from "../lib/cart";
 import StoreChrome from "../components/StoreChrome";
 
 export const metadata: Metadata = {
-  title: "Rumi Studio | Thoughtful Indian Wear",
-  description: "Explore thoughtful kurtas and occasion wear from Rumi Studio.",
+  title: "Rumi Ethnic | Thoughtful Indian Wear",
+  description: "Explore thoughtful kurtas and occasion wear from Rumi Ethnic.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

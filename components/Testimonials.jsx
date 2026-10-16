@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     quote:
-      "I've bought from a few 'premium' ethnic labels before, but Rumi Studio is the first one where the embroidery actually matched what I saw online.",
+      "I've bought from a few 'premium' ethnic labels before, but Rumi Ethnic is the first one where the embroidery actually matched what I saw online.",
     name: "Priyanka M.",
     location: "Delhi",
   },

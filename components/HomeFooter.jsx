@@ -22,8 +22,8 @@ export default function HomeFooter() {
     <footer className={styles.footer}>
       <div className={styles.main}>
         <div className={styles.brandBlock}>
-          <Link href="/" aria-label="Rumi Studio home" className={styles.logo}>
-            <Image src="/Rumi_RGB_Black.png" alt="Rumi Studio" width={132} height={40} />
+          <Link href="/" aria-label="Rumi Ethnic home" className={styles.logo}>
+            <Image src="/Rumi_RGB_Black.png" alt="Rumi Ethnic" width={132} height={40} />
           </Link>
           <p>Timeless Chikankari, thoughtfully made for the moments that matter.</p>
         </div>
@@ -49,7 +49,7 @@ export default function HomeFooter() {
         </div>
       </div>
       <div className={styles.bottom}>
-        <span>© {new Date().getFullYear()} Rumi Studio</span>
+        <span>© {new Date().getFullYear()} Rumi Ethnic</span>
         <Link href="/shop">Discover the collection</Link>
       </div>
     </footer>

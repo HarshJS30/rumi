@@ -230,11 +230,17 @@ def download_product_photos(service, photos_folder_id, local_dir, stats, only_na
     """Download each product's preferred photo source, without other Drive content."""
     os.makedirs(local_dir, exist_ok=True)
     products = list_children(service, photos_folder_id)
+    normalized_names = {folder_key(name) for name in only_names or []}
     for product in products:
         if product.get("mimeType") != FOLDER_MIME:
             continue
-        if only_names and product["name"] not in only_names:
-            continue
+        if normalized_names:
+            normalized_product_name = folder_key(product["name"])
+            if not any(
+                normalized_product_name == name or normalized_product_name.startswith(name + " ")
+                for name in normalized_names
+            ):
+                continue
         children = list_children(service, product["id"])
         subfolders = [x for x in children if x.get("mimeType") == FOLDER_MIME]
         named = {x["name"].strip().lower(): x for x in subfolders}

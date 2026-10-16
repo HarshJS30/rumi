@@ -20,10 +20,10 @@ export async function generateMetadata({
 
   return product
     ? {
-        title: `${product.websiteName} | Rumi Studio`,
+        title: `${product.websiteName} | Rumi Ethnic`,
         description: `${product.websiteName} in ${product.fabric}. Explore product details and order through WhatsApp.`,
       }
-    : { title: "Piece not found | Rumi Studio" };
+    : { title: "Piece not found | Rumi Ethnic" };
 }
 
 export default async function ProductPage({

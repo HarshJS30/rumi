@@ -11,10 +11,10 @@ export default function StoreHeader() {
   const { count } = useCart();
   return (
     <header className="store-header">
-      <Link className="brand" href="/" aria-label="Rumi Studio home">
+      <Link className="brand" href="/" aria-label="Rumi Ethnic home">
         <Image
           src="/Rumi_RGB_Black.png"
-          alt="Rumi Studio"
+          alt="Rumi Ethnic"
           width={172}
           height={52}
           priority

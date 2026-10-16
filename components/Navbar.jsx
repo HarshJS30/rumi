@@ -13,10 +13,10 @@ const links = [
 export default function Navbar() {
   return (
     <header className={styles.navbar}>
-      <a href="#top" className={styles.logo} aria-label="Rumi Studio home">
+      <a href="#top" className={styles.logo} aria-label="Rumi Ethnic home">
         <Image
           src="/Rumi_RGB_Black.png"
-          alt="Rumi Studio"
+          alt="Rumi Ethnic"
           width={172}
           height={52}
           className={styles.logoImage}

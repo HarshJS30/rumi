@@ -4,13 +4,18 @@ import ProductSection from "./ProductSection";
 
 export default function BestSellers() {
   const items = getDistinctCollectionProducts("best-seller");
+  const orderedItems = [
+    ...items.filter((product) => !product.collections.includes("men")),
+    ...items.filter((product) => product.collections.includes("men")),
+  ];
+
   return (
     <ProductSection
       eyebrow="Best Sellers"
       sectionId="best-sellers"
       heading="Loved by You"
       sub="Pieces chosen for their thoughtful details and lasting craftsmanship."
-      products={items}
+      products={orderedItems}
       viewAllHref="/shop"
       viewAllLabel="View whole collection"
     />
