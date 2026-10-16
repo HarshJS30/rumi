@@ -1,8 +1,9 @@
 import catalogue from "../data/catalogue.json";
 import coverOverrides from "../data/cover-overrides.json";
+import slugAliases from "../data/product-slug-redirects.json";
 
 export type ProductOption = { id: string; name: string; priceAdjustment: number; description: string };
-export type SetOption = { id: string; name: string; price: number };
+export type SetOption = { id: string; name: string; price: number; isStitched?: boolean; note?: string };
 export type SizeOption = { size: number; bookable: boolean };
 export type ProductStatus = "available" | "sold";
 
@@ -102,7 +103,7 @@ export const getDistinctCollectionProducts = (collection: string, excludedCollec
   });
 };
 
-export const productSlugAliases: Record<string, string> = {};
+export const productSlugAliases = slugAliases as Record<string, string>;
 export const getProduct = (slug: string) => products.find((product) => product.slug === (productSlugAliases[slug] ?? slug));
 export const productUnitPrice = (product: Product, optionIds: string[], setOptionId?: string) => {
   const base = product.setOptions.find((set) => set.id === setOptionId)?.price ?? product.basePrice ?? 0;

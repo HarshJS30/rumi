@@ -24,11 +24,19 @@ export default function ProductDetail({ product }: { product: Product }) {
   const selectedSet = product.setOptions.find((option) => option.id === setOptionId);
   const price = selectedSet?.price ?? product.basePrice;
   const hasBookableSizes = product.sizes.some((size) => size.bookable);
+  const showSizeChart = Boolean(
+    product.size &&
+    !/^(na|freesize)$/i.test(product.size.trim()) &&
+    product.collections.includes("women") &&
+    !["508", "509"].includes(product.identifier ?? "") &&
+    product.sizes.length > 0,
+  );
   const relatedProducts = getRelatedProducts(product);
   const orderMessage = [
     "Hello Rumi Ethnic, I would like to order:",
     product.websiteName,
     `Set: ${selectedSet?.name ?? "Please advise"}`,
+    ...(selectedSet?.isStitched && selectedSet.note ? [selectedSet.note] : []),
     ...(selectedSize ? [`Size: ${selectedSize}`] : []),
     `Quantity: ${quantity}`,
     `Price: ${formatPrice(price === undefined ? undefined : price * quantity)}`,
@@ -127,7 +135,12 @@ export default function ProductDetail({ product }: { product: Product }) {
                     checked={option.id === setOptionId}
                     onChange={() => setSetOptionId(option.id)}
                   />
-                  <span>{option.name}</span>
+                  <span>
+                    {option.name}
+                    {option.isStitched && option.note && (
+                      <small className="stitched-note">{option.note}</small>
+                    )}
+                  </span>
                   <strong>{formatPrice(option.price)}</strong>
                 </label>
               ))}
@@ -159,6 +172,19 @@ export default function ProductDetail({ product }: { product: Product }) {
                 ))}
               </div>
             </fieldset>
+          )}
+
+          {showSizeChart && (
+            <details className="size-chart">
+              <summary>Size chart</summary>
+              <Image
+                src="/size-chart.webp"
+                alt="Size chart"
+                width={1200}
+                height={1000}
+                sizes="(max-width: 700px) 100vw, 500px"
+              />
+            </details>
           )}
 
           <div className="quantity-picker">

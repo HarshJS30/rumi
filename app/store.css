@@ -19,8 +19,10 @@
 .set-option.selected{border-color:var(--ink);background:var(--paper)}
 .set-option input{grid-row:span 2;accent-color:var(--ink)}
 .set-option span{font-size:12px}
+.set-option .stitched-note{display:block;margin-top:4px;font-size:10px;line-height:1.4;color:var(--muted);font-weight:400;letter-spacing:0;text-transform:none}
 .set-option strong{font:500 10px 'Montserrat',sans-serif}
 .size-picker legend{text-transform:none;letter-spacing:0;font:400 14px 'Jost',sans-serif}
+.size-chart{margin:12px 0 18px;border-bottom:1px solid var(--line)}.size-chart summary{list-style:none;position:relative;padding:12px 24px 12px 0;font:500 10px 'Montserrat',sans-serif;letter-spacing:.07em;text-transform:uppercase;cursor:pointer}.size-chart summary::-webkit-details-marker{display:none}.size-chart summary::after{content:"+";position:absolute;right:2px;top:8px;font:20px 'Jost',sans-serif}.size-chart[open] summary::after{content:"\2212"}.size-chart img{display:block;width:100%;height:auto;margin:0 0 14px}.cart-stitched-note{display:block;margin:5px 0 7px;color:var(--muted);font-size:11px;line-height:1.45}
 .size-options{display:flex;gap:8px;flex-wrap:wrap;padding-top:11px}
 .filter-panel .color-filter{display:flex;flex:1 1 100%;flex-direction:column;align-items:stretch;gap:7px;border:0;padding:0;margin:0}
 .filter-panel .color-filter>summary{position:relative;display:flex;justify-content:space-between;align-items:center;gap:10px;min-height:37px;border:1px solid var(--line);background:white;padding:9px 28px 9px 10px;font:12px 'Jost',sans-serif;letter-spacing:0;text-transform:none;list-style:none;cursor:pointer}

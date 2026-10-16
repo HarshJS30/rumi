@@ -1,10 +1,10 @@
 [
   {
     "id": "rumi-001",
-    "slug": "lavender-mul-a-line-with-chikankari-pearl-cut-dana",
+    "slug": "lavender-mul-a-line-with-chikankari-pearl-cut-dana-semi-stitched-suit",
     "identifier": "101",
-    "websiteName": "101 | Lavender Mul A Line with Chikankari Pearl & Cut Dana",
-    "name": "Lavender Mul A Line with Chikankari Pearl & Cut Dana",
+    "websiteName": "101 | Lavender Mul A-Line with Chikankari Pearl & Cut Dana Semi-stitched Suit",
+    "name": "Lavender Mul A-Line with Chikankari Pearl & Cut Dana Semi-stitched Suit",
     "status": "sold",
     "available": false,
     "images": [
@@ -38,6 +38,13 @@
         "id": "kurta-dupatta",
         "name": "Kurta + Dupatta",
         "price": 7450
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8650,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "A-Line Kurta",
@@ -50,10 +57,10 @@
   },
   {
     "id": "rumi-002",
-    "slug": "coral-peach-mul-chikankari-straight-suit",
+    "slug": "coral-peach-mul-chikankari-unstitched-suit",
     "identifier": "104",
-    "websiteName": "104 | Coral Peach Mul chikankari Straight Suit",
-    "name": "Coral Peach Mul chikankari Straight Suit",
+    "websiteName": "104 | Coral Peach Mul Chikankari Unstitched Suit",
+    "name": "Coral Peach Mul Chikankari Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -84,6 +91,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4900
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 6100,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -96,10 +110,10 @@
   },
   {
     "id": "rumi-003",
-    "slug": "navy-blue-mul-chikankari-straight-suit",
+    "slug": "navy-blue-mul-chikankari-unstitched-suit",
     "identifier": "104",
-    "websiteName": "104 | Navy Blue Mul Chikankari Straight Suit",
-    "name": "Navy Blue Mul Chikankari Straight Suit",
+    "websiteName": "104 | Navy Blue Mul Chikankari Unstitched Suit",
+    "name": "Navy Blue Mul Chikankari Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -134,6 +148,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4900
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 6100,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -149,10 +170,10 @@
   },
   {
     "id": "rumi-004",
-    "slug": "peach-mul-chikankari-straight-suit",
+    "slug": "peach-mul-chikankari-unstitched-suit",
     "identifier": "104",
-    "websiteName": "104 | Peach Mul Chikankari Straight Suit",
-    "name": "Peach Mul Chikankari Straight Suit",
+    "websiteName": "104 | Peach Mul Chikankari Unstitched Suit",
+    "name": "Peach Mul Chikankari Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -187,6 +208,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4900
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 6100,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -199,10 +227,10 @@
   },
   {
     "id": "rumi-005",
-    "slug": "pink-mul-chikankari-straight-suit",
+    "slug": "pink-mul-chikankari-unstitched-suit",
     "identifier": "104",
-    "websiteName": "104 | Pink Mul Chikankari Straight Suit",
-    "name": "Pink Mul Chikankari Straight Suit",
+    "websiteName": "104 | Pink Mul Chikankari Unstitched Suit",
+    "name": "Pink Mul Chikankari Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -233,6 +261,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4900
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 6100,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -248,10 +283,10 @@
   },
   {
     "id": "rumi-006",
-    "slug": "red-mul-chikankari-straight-suit",
+    "slug": "red-mul-chikankari-unstitched-suit",
     "identifier": "104",
-    "websiteName": "104 | Red Mul chikankari Straight Suit",
-    "name": "Red Mul chikankari Straight Suit",
+    "websiteName": "104 | Red Mul chikankari Unstitched Suit",
+    "name": "Red Mul chikankari Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -282,6 +317,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4900
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 6100,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -294,10 +336,10 @@
   },
   {
     "id": "rumi-007",
-    "slug": "baby-pink-chikankari-a-line-suit-with-mukaish-work",
+    "slug": "baby-pink-chikankari-a-line-chikankari-with-mukaish-work-stitched-suit",
     "identifier": "105",
-    "websiteName": "105 | Baby Pink chikankari A Line Suit with Mukaish Work",
-    "name": "Baby Pink chikankari A Line Suit with Mukaish Work",
+    "websiteName": "105 | Baby Pink chikankari A Line Chikankari with Mukaish Work Stitched Suit",
+    "name": "Baby Pink chikankari A Line Chikankari with Mukaish Work Stitched Suit",
     "status": "sold",
     "available": false,
     "images": [
@@ -332,6 +374,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 5950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "A-Line Kurta",
@@ -344,10 +393,10 @@
   },
   {
     "id": "rumi-008",
-    "slug": "blue-straight-panel-with-chikankari-pearl-cut-dana",
+    "slug": "blue-chikankari-panel-with-pearl-cut-dana-unstitched-suit",
     "identifier": "106",
-    "websiteName": "106 | Blue Straight Panel with Chikankari, Pearl & Cut Dana",
-    "name": "Blue Straight Panel with Chikankari, Pearl & Cut Dana",
+    "websiteName": "106 | Blue Chikankari Panel with Pearl & Cut Dana Unstitched Suit",
+    "name": "Blue Chikankari Panel with Pearl & Cut Dana Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -383,6 +432,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 6950
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8150,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -398,10 +454,10 @@
   },
   {
     "id": "rumi-009",
-    "slug": "lemon-straight-panel-with-chikankari-pearl-cut-dana",
+    "slug": "lemon-chikankari-panel-with-pearl-cut-dana-unstitched-suit",
     "identifier": "106",
-    "websiteName": "106 | Lemon Straight Panel with Chikankari, Pearl & Cut Dana",
-    "name": "Lemon Straight Panel with Chikankari, Pearl & Cut Dana",
+    "websiteName": "106 | Lemon Chikankari Panel with Pearl & Cut Dana Unstitched Suit",
+    "name": "Lemon Chikankari Panel with Pearl & Cut Dana Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -436,6 +492,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 6950
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8150,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -448,10 +511,10 @@
   },
   {
     "id": "rumi-010",
-    "slug": "peach-straight-panel-with-chikankari-pearl-cut-dana",
+    "slug": "peach-chikankari-panel-with-pearl-cut-dana-unstitched-suit",
     "identifier": "106",
-    "websiteName": "106 | Peach Straight Panel with Chikankari, Pearl & Cut Dana",
-    "name": "Peach Straight Panel with Chikankari, Pearl & Cut Dana",
+    "websiteName": "106 | Peach Chikankari Panel with Pearl & Cut Dana Unstitched Suit",
+    "name": "Peach Chikankari Panel with Pearl & Cut Dana Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -485,6 +548,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 6950
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8150,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -500,10 +570,10 @@
   },
   {
     "id": "rumi-011",
-    "slug": "pink-straight-panel-with-chikankari-pearl-cut-dana",
+    "slug": "pink-chikankari-panel-with-pearl-cut-dana-unstitched-suit",
     "identifier": "106",
-    "websiteName": "106 | Pink Straight Panel with Chikankari, Pearl & Cut Dana",
-    "name": "Pink Straight Panel with Chikankari, Pearl & Cut Dana",
+    "websiteName": "106 | Pink Chikankari Panel with Pearl & Cut Dana Unstitched Suit",
+    "name": "Pink Chikankari Panel with Pearl & Cut Dana Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -538,6 +608,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 6950
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8150,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -553,10 +630,10 @@
   },
   {
     "id": "rumi-012",
-    "slug": "teal-straight-panel-with-chikankari-pearl-cut-dana",
+    "slug": "teal-chikankari-panel-with-pearl-cut-dana-unstitched-suit",
     "identifier": "106",
-    "websiteName": "106 | Teal Straight Panel with Chikankari, Pearl & Cut Dana",
-    "name": "Teal Straight Panel with Chikankari, Pearl & Cut Dana",
+    "websiteName": "106 | Teal Chikankari Panel with Pearl & Cut Dana Unstitched Suit",
+    "name": "Teal Chikankari Panel with Pearl & Cut Dana Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -593,6 +670,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 6950
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8150,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -605,10 +689,10 @@
   },
   {
     "id": "rumi-013",
-    "slug": "tissue-with-thread-chikankari-work",
+    "slug": "tissue-with-thread-chikankari-work-unstitched-suit",
     "identifier": "110",
-    "websiteName": "110 | Tissue with Thread Chikankari Work",
-    "name": "Tissue with Thread Chikankari Work",
+    "websiteName": "110 | Tissue with Thread Chikankari Work Unstitched Suit",
+    "name": "Tissue with Thread Chikankari Work Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -644,6 +728,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 5950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -656,10 +747,10 @@
   },
   {
     "id": "rumi-014",
-    "slug": "powder-blue-kota-cotton-with-chikankari-embroidery",
+    "slug": "powder-blue-kota-cotton-with-chikankari-unstitched-suit",
     "identifier": "118",
-    "websiteName": "118 | Powder Blue Kota Cotton with Chikankari Embroidery",
-    "name": "Powder Blue Kota Cotton with Chikankari Embroidery",
+    "websiteName": "118 | Powder Blue Kota Cotton with Chikankari Unstitched Suit",
+    "name": "Powder Blue Kota Cotton with Chikankari Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -692,6 +783,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 5950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -704,10 +802,10 @@
   },
   {
     "id": "rumi-015",
-    "slug": "white-kota-cotton-with-coloured-thread-chikankari-embroidery",
+    "slug": "white-kota-cotton-with-coloured-thread-chikankari-unstitched-suit",
     "identifier": "118",
-    "websiteName": "118 | White Kota Cotton with Coloured Thread Chikankari Embroidery",
-    "name": "White Kota Cotton with Coloured Thread Chikankari Embroidery",
+    "websiteName": "118 | White Kota Cotton with Coloured Thread Chikankari Unstitched Suit",
+    "name": "White Kota Cotton with Coloured Thread Chikankari Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -744,6 +842,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 5950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -756,10 +861,10 @@
   },
   {
     "id": "rumi-017",
-    "slug": "lilac-mul-straight-kurta-set-with-embellished-neckline",
+    "slug": "lilac-mul-chikankari-with-embellished-neckline-unstitched-suit",
     "identifier": "119",
-    "websiteName": "119 | Lilac Mul Straight Kurta Set with Embellished Neckline",
-    "name": "Lilac Mul Straight Kurta Set with Embellished Neckline",
+    "websiteName": "119 | Lilac Mul Chikankari with Embellished Neckline Unstitched Suit",
+    "name": "Lilac Mul Chikankari with Embellished Neckline Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -794,6 +899,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 5950
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7150,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -809,10 +921,10 @@
   },
   {
     "id": "rumi-018",
-    "slug": "powder-blue-mul-straight-kurta-set-with-embellished-neckline",
+    "slug": "powder-blue-mul-chikankari-with-embellished-neckline-unstitched-suit",
     "identifier": "119",
-    "websiteName": "119 | Powder Blue Mul Straight Kurta Set with Embellished Neckline",
-    "name": "Powder Blue Mul Straight Kurta Set with Embellished Neckline",
+    "websiteName": "119 | Powder Blue Mul Chikankari with Embellished Neckline Unstitched Suit",
+    "name": "Powder Blue Mul Chikankari with Embellished Neckline Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -844,6 +956,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 5950
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7150,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -859,10 +978,10 @@
   },
   {
     "id": "rumi-019",
-    "slug": "teal-mist-mul-straight-kurta-set-with-embellished-neckline",
+    "slug": "teal-mist-mul-chikankari-with-embellished-neckline-unstitched-suit",
     "identifier": "119",
-    "websiteName": "119 | Teal Mist Mul Straight Kurta Set with Embellished Neckline",
-    "name": "Teal Mist Mul Straight Kurta Set with Embellished Neckline",
+    "websiteName": "119 | Teal Mist Mul Chikankari with Embellished Neckline Unstitched Suit",
+    "name": "Teal Mist Mul Chikankari with Embellished Neckline Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -896,6 +1015,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 5950
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7150,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -908,10 +1034,10 @@
   },
   {
     "id": "rumi-020",
-    "slug": "purple-mul-kaftan-with-chikankari-pearl-cut-dana",
+    "slug": "purple-mul-kaftan-with-chikankari-pearl-cut-dana-semi-stitched",
     "identifier": "121",
-    "websiteName": "121 | Purple Mul Kaftan with Chikankari, Pearl & Cut Dana",
-    "name": "Purple Mul Kaftan with Chikankari, Pearl & Cut Dana",
+    "websiteName": "121 | Purple Mul Kaftan with Chikankari, Pearl & Cut Dana Semi-stitched",
+    "name": "Purple Mul Kaftan with Chikankari, Pearl & Cut Dana Semi-stitched",
     "status": "available",
     "available": true,
     "images": [
@@ -945,6 +1071,13 @@
         "id": "kaftan-white-bottom",
         "name": "Kaftan + White Bottom",
         "price": 6000
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7200,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Kaftan",
@@ -960,10 +1093,10 @@
   },
   {
     "id": "rumi-021",
-    "slug": "sea-green-mul-kaftan-with-chikankari-pearl-cut-dana",
+    "slug": "sea-green-mul-kaftan-with-chikankari-pearl-cut-dana-semi-stitched",
     "identifier": "121",
-    "websiteName": "121 | Sea Green Mul Kaftan with Chikankari, Pearl & Cut Dana",
-    "name": "Sea Green Mul Kaftan with Chikankari, Pearl & Cut Dana",
+    "websiteName": "121 | Sea Green Mul Kaftan with Chikankari, Pearl & Cut Dana Semi-stitched",
+    "name": "Sea Green Mul Kaftan with Chikankari, Pearl & Cut Dana Semi-stitched",
     "status": "available",
     "available": true,
     "images": [
@@ -998,6 +1131,13 @@
         "id": "kaftan-white-bottom",
         "name": "Kaftan + White Bottom",
         "price": 6000
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7200,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Kaftan",
@@ -1013,10 +1153,10 @@
   },
   {
     "id": "rumi-022",
-    "slug": "unisex-white-lawn-cotton-kurta-fabric-with-chikankari",
+    "slug": "unisex-white-lawn-cotton-kurta-unstitched-fabric-with-chikankari",
     "identifier": "127",
-    "websiteName": "127 | Unisex White Lawn Cotton Kurta Fabric with Chikankari",
-    "name": "Unisex White Lawn Cotton Kurta Fabric with Chikankari",
+    "websiteName": "127 | Unisex White Lawn Cotton Kurta Unstitched Fabric with Chikankari",
+    "name": "Unisex White Lawn Cotton Kurta Unstitched Fabric with Chikankari",
     "status": "available",
     "available": true,
     "images": [
@@ -1046,6 +1186,13 @@
         "id": "kurta-fabric",
         "name": "Kurta Fabric",
         "price": 3700
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 4900,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1063,10 +1210,10 @@
   },
   {
     "id": "rumi-024",
-    "slug": "light-wine-kota-straight-suit-with-applique-work",
+    "slug": "light-wine-kota-with-applique-work-unstitched-suit",
     "identifier": "131",
-    "websiteName": "131 | Light Wine Kota Straight Suit with Applique Work",
-    "name": "Light Wine Kota Straight Suit with Applique Work",
+    "websiteName": "131 | Light Wine Kota with Applique Work Unstitched Suit",
+    "name": "Light Wine Kota with Applique Work Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -1102,6 +1249,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4500
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 5700,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1114,10 +1268,10 @@
   },
   {
     "id": "rumi-025",
-    "slug": "peach-mul-chikankari-with-neckline-kali",
+    "slug": "peach-mul-chikankari-with-neckline-kali-unstitched-suit",
     "identifier": "132",
-    "websiteName": "132 | Peach Mul Chikankari with Neckline Kali",
-    "name": "Peach Mul Chikankari with Neckline Kali",
+    "websiteName": "132 | Peach Mul Chikankari with Neckline Kali Unstitched Suit",
+    "name": "Peach Mul Chikankari with Neckline Kali Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -1149,6 +1303,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4900
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 6100,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1161,10 +1322,10 @@
   },
   {
     "id": "rumi-026",
-    "slug": "red-mul-chikankari-with-neckline-kali",
+    "slug": "red-mul-chikankari-with-neckline-kali-unstitched-suit",
     "identifier": "132",
-    "websiteName": "132 | Red Mul Chikankari with Neckline Kali",
-    "name": "Red Mul Chikankari with Neckline Kali",
+    "websiteName": "132 | Red Mul Chikankari with Neckline Kali Unstitched Suit",
+    "name": "Red Mul Chikankari with Neckline Kali Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -1196,6 +1357,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 4900
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 6100,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1208,10 +1376,10 @@
   },
   {
     "id": "rumi-027",
-    "slug": "blush-peach-organza-suit-with-pitta-work",
+    "slug": "blush-peach-organza-with-pitta-work-unstitched-suit",
     "identifier": "133",
-    "websiteName": "133 | Blush Peach Organza Suit with Pitta Work",
-    "name": "Blush Peach Organza Suit with Pitta Work",
+    "websiteName": "133 | Blush Peach Organza with Pitta Work Unstitched Suit",
+    "name": "Blush Peach Organza with Pitta Work Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -1242,6 +1410,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1257,10 +1432,10 @@
   },
   {
     "id": "rumi-028",
-    "slug": "powder-blue-organza-suit-with-pitta-work",
+    "slug": "powder-blue-organza-with-pitta-work-unstitched-suit",
     "identifier": "133",
-    "websiteName": "133 | Powder Blue Organza Suit with Pitta Work",
-    "name": "Powder Blue Organza Suit with Pitta Work",
+    "websiteName": "133 | Powder Blue Organza with Pitta Work Unstitched Suit",
+    "name": "Powder Blue Organza with Pitta Work Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -1289,6 +1464,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1304,10 +1486,10 @@
   },
   {
     "id": "rumi-029",
-    "slug": "baby-pink-anarkali-in-mul-with-chikankari-pearl-cut-dana",
+    "slug": "baby-pink-anarkali-in-mul-with-chikankari-pearl-cut-dana-semi-stitched",
     "identifier": "134",
-    "websiteName": "134 | Baby Pink Anarkali in Mul with Chikankari, Pearl & Cut Dana",
-    "name": "Baby Pink Anarkali in Mul with Chikankari, Pearl & Cut Dana",
+    "websiteName": "134 | Baby Pink Anarkali in Mul with Chikankari, Pearl & Cut Dana Semi-stitched",
+    "name": "Baby Pink Anarkali in Mul with Chikankari, Pearl & Cut Dana Semi-stitched",
     "status": "available",
     "available": true,
     "images": [
@@ -1343,6 +1525,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 5850
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7050,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Anarkali",
@@ -1358,10 +1547,10 @@
   },
   {
     "id": "rumi-030",
-    "slug": "daisy-yellow-anarkali-in-mul-with-chikankari-pearl-cut-dana",
+    "slug": "daisy-yellow-anarkali-in-mul-with-chikankari-pearl-cut-dana-semi-stitched",
     "identifier": "134",
-    "websiteName": "134 | Daisy Yellow Anarkali in Mul with Chikankari, Pearl & Cut Dana",
-    "name": "Daisy Yellow Anarkali in Mul with Chikankari, Pearl & Cut Dana",
+    "websiteName": "134 | Daisy Yellow Anarkali in Mul with Chikankari, Pearl & Cut Dana Semi-stitched",
+    "name": "Daisy Yellow Anarkali in Mul with Chikankari, Pearl & Cut Dana Semi-stitched",
     "status": "available",
     "available": true,
     "images": [
@@ -1393,6 +1582,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 5850
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7050,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Anarkali",
@@ -1447,6 +1643,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7850
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 9050,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Anarkali",
@@ -1501,6 +1704,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7850
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 9050,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Anarkali",
@@ -1513,10 +1723,10 @@
   },
   {
     "id": "rumi-033",
-    "slug": "white-angrakha-in-mul-with-red-black-chikankari",
+    "slug": "white-angrakha-in-mul-with-red-black-chikankari-semi-stitched",
     "identifier": "136",
-    "websiteName": "136 | White Angrakha in Mul with red & Black Chikankari",
-    "name": "White Angrakha in Mul with red & Black Chikankari",
+    "websiteName": "136 | White Angrakha in Mul with red & Black Chikankari Semi-stitched",
+    "name": "White Angrakha in Mul with red & Black Chikankari Semi-stitched",
     "status": "available",
     "available": true,
     "images": [
@@ -1552,6 +1762,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 8250
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 9450,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Angrakha",
@@ -1567,10 +1784,10 @@
   },
   {
     "id": "rumi-034",
-    "slug": "apricot-peach-mul-straight-panel-with-chikankari-pearl-cut-dana-lace",
+    "slug": "apricot-peach-mul-panel-with-chikankari-pearl-cut-dana-lace-unstitched-suit",
     "identifier": "137",
-    "websiteName": "137 | Apricot Peach Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
-    "name": "Apricot Peach Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
+    "websiteName": "137 | Apricot Peach Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
+    "name": "Apricot Peach Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -1603,6 +1820,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1615,10 +1839,10 @@
   },
   {
     "id": "rumi-035",
-    "slug": "mehndi-green-mul-straight-panel-with-chikankari-pearl-cut-dana-lace",
+    "slug": "mehndi-green-mul-panel-with-chikankari-pearl-cut-dana-lace-unstitched-suit",
     "identifier": "137",
-    "websiteName": "137 | Mehndi Green Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
-    "name": "Mehndi Green Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
+    "websiteName": "137 | Mehndi Green Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
+    "name": "Mehndi Green Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
     "status": "sold",
     "available": false,
     "images": [
@@ -1646,6 +1870,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1658,10 +1889,10 @@
   },
   {
     "id": "rumi-036",
-    "slug": "peach-mul-straight-panel-with-chikankari-pearl-cut-dana-lace",
+    "slug": "peach-mul-panel-with-chikankari-pearl-cut-dana-lace-unstitched-suit",
     "identifier": "137",
-    "websiteName": "137 | Peach Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
-    "name": "Peach Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
+    "websiteName": "137 | Peach Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
+    "name": "Peach Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
     "status": "sold",
     "available": false,
     "images": [
@@ -1686,6 +1917,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1698,10 +1936,10 @@
   },
   {
     "id": "rumi-037",
-    "slug": "powder-blue-mul-straight-panel-with-chikankari-pearl-cut-dana-lace",
+    "slug": "powder-blue-mul-panel-with-chikankari-pearl-cut-dana-lace-unstitched-suit",
     "identifier": "137",
-    "websiteName": "137 | Powder Blue Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
-    "name": "Powder Blue Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
+    "websiteName": "137 | Powder Blue Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
+    "name": "Powder Blue Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -1733,6 +1971,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1745,10 +1990,10 @@
   },
   {
     "id": "rumi-038",
-    "slug": "sage-green-mul-straight-panel-with-chikankari-pearl-cut-dana-lace",
+    "slug": "sage-green-mul-panel-with-chikankari-pearl-cut-dana-lace-unstitched-suit",
     "identifier": "137",
-    "websiteName": "137 | Sage Green Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
-    "name": "Sage Green Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
+    "websiteName": "137 | Sage Green Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
+    "name": "Sage Green Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -1781,6 +2026,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1796,10 +2048,10 @@
   },
   {
     "id": "rumi-039",
-    "slug": "yellow-mul-straight-panel-with-chikankari-pearl-cut-dana-lace",
+    "slug": "yellow-mul-panel-with-chikankari-pearl-cut-dana-lace-unstitched-suit",
     "identifier": "137",
-    "websiteName": "137 | Yellow Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
-    "name": "Yellow Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace",
+    "websiteName": "137 | Yellow Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
+    "name": "Yellow Mul Panel with Chikankari, Pearl, Cut Dana & Lace Unstitched Suit",
     "status": "sold",
     "available": false,
     "images": [
@@ -1826,6 +2078,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7750
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8950,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -1838,10 +2097,10 @@
   },
   {
     "id": "rumi-040",
-    "slug": "peach-mul-a-line-chikankari-with-mukaish",
+    "slug": "peach-mul-a-line-chikankari-with-mukaish-unstitched-suit",
     "identifier": "138",
-    "websiteName": "138 | Peach Mul A Line Chikankari with Mukaish",
-    "name": "Peach Mul A Line Chikankari with Mukaish",
+    "websiteName": "138 | Peach Mul A-Line Chikankari with Mukaish Unstitched Suit",
+    "name": "Peach Mul A-Line Chikankari with Mukaish Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -1868,6 +2127,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 6500
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7700,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "A-Line Kurta",
@@ -1883,10 +2149,10 @@
   },
   {
     "id": "rumi-041",
-    "slug": "purple-mul-a-line-chikankari-with-mukaish",
+    "slug": "purple-mul-a-line-chikankari-with-mukaish-unstitched-suit",
     "identifier": "138",
-    "websiteName": "138 | Purple Mul A Line Chikankari with Mukaish",
-    "name": "Purple Mul A Line Chikankari with Mukaish",
+    "websiteName": "138 | Purple Mul A-Line Chikankari with Mukaish Unstitched Suit",
+    "name": "Purple Mul A-Line Chikankari with Mukaish Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -1912,6 +2178,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 6500
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7700,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "A-Line Kurta",
@@ -1927,10 +2200,10 @@
   },
   {
     "id": "rumi-042",
-    "slug": "yellow-mul-a-line-chikankari-with-mukaish",
+    "slug": "yellow-mul-a-line-chikankari-with-mukaish-unstitched-suit",
     "identifier": "138",
-    "websiteName": "138 | Yellow Mul A Line Chikankari with Mukaish",
-    "name": "Yellow Mul A Line Chikankari with Mukaish",
+    "websiteName": "138 | Yellow Mul A Line Chikankari with Mukaish Unstitched Suit",
+    "name": "Yellow Mul A Line Chikankari with Mukaish Unstitched Suit",
     "status": "sold",
     "available": false,
     "images": [
@@ -1962,6 +2235,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 6500
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7700,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "A-Line Kurta",
@@ -1974,10 +2254,10 @@
   },
   {
     "id": "rumi-043",
-    "slug": "pink-pure-organza-with-chikankari-mukaish",
+    "slug": "pink-pure-organza-with-chikankari-mukaish-unstitched-suit",
     "identifier": "139",
-    "websiteName": "139 | Pink Pure Organza with Chikankari & Mukaish",
-    "name": "Pink Pure Organza with Chikankari & Mukaish",
+    "websiteName": "139 | Pink Pure Organza with Chikankari & Mukaish Unstitched Suit",
+    "name": "Pink Pure Organza with Chikankari & Mukaish Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -2009,6 +2289,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 8500
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 9700,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -2024,10 +2311,10 @@
   },
   {
     "id": "rumi-044",
-    "slug": "leafy-green-mul-straight-suit-with-chikankari-pearl-cut-dana",
+    "slug": "leafy-green-mul-with-chikankari-pearl-cut-dana-unstitched-suit",
     "identifier": "140",
-    "websiteName": "140 | Leafy Green Mul Straight Suit with Chikankari, Pearl & Cut Dana",
-    "name": "Leafy Green Mul Straight Suit with Chikankari, Pearl & Cut Dana",
+    "websiteName": "140 | Leafy Green Mul with Chikankari, Pearl & Cut Dana Unstitched Suit",
+    "name": "Leafy Green Mul with Chikankari, Pearl & Cut Dana Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -2060,6 +2347,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 6250
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7450,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -2075,10 +2369,10 @@
   },
   {
     "id": "rumi-045",
-    "slug": "orchid-mauve-mul-straight-suit-with-chikankari-pearl-cut-dana",
+    "slug": "orchid-mauve-mul-with-chikankari-pearl-cut-dana-unstitched-suit",
     "identifier": "140",
-    "websiteName": "140 | Orchid Mauve Mul Straight Suit with Chikankari, Pearl & Cut Dana",
-    "name": "Orchid Mauve Mul Straight Suit with Chikankari, Pearl & Cut Dana",
+    "websiteName": "140 | Orchid Mauve Mul with Chikankari, Pearl & Cut Dana Unstitched Suit",
+    "name": "Orchid Mauve Mul with Chikankari, Pearl & Cut Dana Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -2110,6 +2404,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 6250
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7450,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -2125,10 +2426,10 @@
   },
   {
     "id": "rumi-046",
-    "slug": "white-mul-straight-suit-with-chikankari-pearl-cut-dana",
+    "slug": "white-mul-with-chikankari-pearl-cut-dana-unstitched-suit",
     "identifier": "140",
-    "websiteName": "140 | White Mul Straight Suit with Chikankari, Pearl & Cut Dana",
-    "name": "White Mul Straight Suit with Chikankari, Pearl & Cut Dana",
+    "websiteName": "140 | White Mul with Chikankari, Pearl & Cut Dana Unstitched Suit",
+    "name": "White Mul with Chikankari, Pearl & Cut Dana Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -2158,6 +2459,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 6250
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 7450,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -2170,10 +2478,10 @@
   },
   {
     "id": "rumi-047",
-    "slug": "yellow-mul-straight-suit-with-chikankari-jaali",
+    "slug": "yellow-mul-with-chikankari-jaali-unstitched-suit",
     "identifier": "141",
-    "websiteName": "141 | Yellow Mul Straight Suit with Chikankari Jaali",
-    "name": "Yellow Mul Straight Suit with Chikankari Jaali",
+    "websiteName": "141 | Yellow Mul with Chikankari Jaali Unstitched Suit",
+    "name": "Yellow Mul with Chikankari Jaali Unstitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -2205,6 +2513,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7600
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8800,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "Straight Kurta",
@@ -2220,10 +2535,10 @@
   },
   {
     "id": "rumi-048",
-    "slug": "celtic-blue-mul-a-line-suit-with-mukaish-pitta-work",
+    "slug": "celtic-blue-mul-a-line-with-mukaish-pitta-work-semi-stitched-suit",
     "identifier": "142",
-    "websiteName": "142 | Celtic Blue Mul A Line Suit with Mukaish & Pitta Work",
-    "name": "Celtic Blue Mul A Line Suit with Mukaish & Pitta Work",
+    "websiteName": "142 | Celtic Blue Mul A-Line with Mukaish & Pitta Work Semi-stitched Suit",
+    "name": "Celtic Blue Mul A-Line with Mukaish & Pitta Work Semi-stitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -2254,6 +2569,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7200
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8400,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "A-Line Kurta",
@@ -2269,10 +2591,10 @@
   },
   {
     "id": "rumi-049",
-    "slug": "emerald-green-mul-a-line-suit-with-mukaish-pitta-work",
+    "slug": "emerald-green-mul-a-line-with-mukaish-pitta-work-semi-stitched-suit",
     "identifier": "142",
-    "websiteName": "142 | Emerald Green Mul A Line Suit with Mukaish & Pitta Work",
-    "name": "Emerald Green Mul A Line Suit with Mukaish & Pitta Work",
+    "websiteName": "142 | Emerald Green Mul A-Line with Mukaish & Pitta Work Semi-stitched Suit",
+    "name": "Emerald Green Mul A-Line with Mukaish & Pitta Work Semi-stitched Suit",
     "status": "sold",
     "available": false,
     "images": [
@@ -2302,6 +2624,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7200
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8400,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "A-Line Kurta",
@@ -2314,10 +2643,10 @@
   },
   {
     "id": "rumi-050",
-    "slug": "midnight-black-mul-a-line-suit-with-mukaish-pitta-work",
+    "slug": "midnight-black-mul-a-line-with-mukaish-pitta-work-semi-stitched-suit",
     "identifier": "142",
-    "websiteName": "142 | Midnight Black Mul A Line Suit with Mukaish & Pitta Work",
-    "name": "Midnight Black Mul A Line Suit with Mukaish & Pitta Work",
+    "websiteName": "142 | Midnight Black Mul A-Line with Mukaish & Pitta Work Semi-stitched Suit",
+    "name": "Midnight Black Mul A-Line with Mukaish & Pitta Work Semi-stitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -2348,6 +2677,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7200
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8400,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "A-Line Kurta",
@@ -2363,10 +2699,10 @@
   },
   {
     "id": "rumi-051",
-    "slug": "scarlet-red-mul-a-line-suit-with-mukaish-pitta-work",
+    "slug": "scarlet-red-mul-a-line-with-mukaish-pitta-work-semi-stitched-suit",
     "identifier": "142",
-    "websiteName": "142 | Scarlet Red Mul A Line Suit with Mukaish & Pitta Work",
-    "name": "Scarlet Red Mul A Line Suit with Mukaish & Pitta Work",
+    "websiteName": "142 | Scarlet Red Mul A-Line with Mukaish & Pitta Work Semi-stitched Suit",
+    "name": "Scarlet Red Mul A-Line with Mukaish & Pitta Work Semi-stitched Suit",
     "status": "available",
     "available": true,
     "images": [
@@ -2395,6 +2731,13 @@
         "id": "kurta-dupatta-bottom",
         "name": "Kurta + Dupatta + Bottom",
         "price": 7200
+      },
+      {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": 8400,
+        "isStitched": true,
+        "note": "For measurements, talk to our team at the time of check out."
       }
     ],
     "category": "A-Line Kurta",
@@ -2410,11 +2753,11 @@
   },
   {
     "id": "rumi-052",
-    "slug": "baby-pink-cotton-chikankari-kurta",
+    "slug": "baby-pink-cotton-chikankari-stitched-kurta",
     "identifier": "501",
     "newArticleNumber": "501",
-    "websiteName": "501 | Baby Pink Cotton Chikankari Kurta",
-    "name": "Baby Pink Cotton Chikankari Kurta",
+    "websiteName": "501 | Baby Pink Cotton Chikankari Stitched Kurta",
+    "name": "Baby Pink Cotton Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -2456,11 +2799,11 @@
   },
   {
     "id": "rumi-053",
-    "slug": "mint-green-cotton-chikankari-kurta",
+    "slug": "mint-green-cotton-chikankari-stitched-kurta",
     "identifier": "501",
     "newArticleNumber": "501",
-    "websiteName": "501 | Mint Green Cotton Chikankari Kurta",
-    "name": "Mint Green Cotton Chikankari Kurta",
+    "websiteName": "501 | Mint Green Cotton Chikankari Stitched Kurta",
+    "name": "Mint Green Cotton Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -2502,11 +2845,11 @@
   },
   {
     "id": "rumi-054",
-    "slug": "off-white-cotton-chikankari-kurta",
+    "slug": "off-white-cotton-chikankari-stitched-kurta",
     "identifier": "501",
     "newArticleNumber": "501",
-    "websiteName": "501 | Off White Cotton Chikankari Kurta",
-    "name": "Off White Cotton Chikankari Kurta",
+    "websiteName": "501 | Off White Cotton Chikankari Stitched Kurta",
+    "name": "Off White Cotton Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -2548,11 +2891,11 @@
   },
   {
     "id": "rumi-055",
-    "slug": "pale-yellow-cotton-chikankari-kurta",
+    "slug": "pale-yellow-cotton-chikankari-stitched-kurta",
     "identifier": "501",
     "newArticleNumber": "501",
-    "websiteName": "501 | Pale Yellow Cotton Chikankari Kurta",
-    "name": "Pale Yellow Cotton Chikankari Kurta",
+    "websiteName": "501 | Pale Yellow Cotton Chikankari Stitched Kurta",
+    "name": "Pale Yellow Cotton Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -2641,11 +2984,11 @@
   },
   {
     "id": "rumi-057",
-    "slug": "light-sea-green-chanderi-silk-chikankari-kurta",
+    "slug": "light-sea-green-chanderi-silk-chikankari-stitched-kurta",
     "identifier": "502",
     "newArticleNumber": "502",
-    "websiteName": "502 | Light Sea Green Chanderi Silk Chikankari Kurta",
-    "name": "Light Sea Green Chanderi Silk Chikankari Kurta",
+    "websiteName": "502 | Light Sea Green Chanderi Silk Chikankari Stitched Kurta",
+    "name": "Light Sea Green Chanderi Silk Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -2686,11 +3029,11 @@
   },
   {
     "id": "rumi-058",
-    "slug": "lilac-chanderi-silk-chikankari-kurta",
+    "slug": "lilac-chanderi-silk-chikankari-stitched-kurta",
     "identifier": "502",
     "newArticleNumber": "502",
-    "websiteName": "502 | Lilac Chanderi Silk Chikankari Kurta",
-    "name": "Lilac Chanderi Silk Chikankari Kurta",
+    "websiteName": "502 | Lilac Chanderi Silk Chikankari Stitched Kurta",
+    "name": "Lilac Chanderi Silk Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -2731,11 +3074,11 @@
   },
   {
     "id": "rumi-059",
-    "slug": "olive-green-chanderi-silk-chikankari-kurta",
+    "slug": "olive-green-chanderi-silk-chikankari-stitched-kurta",
     "identifier": "502",
     "newArticleNumber": "502",
-    "websiteName": "502 | Olive Green Chanderi Silk Chikankari Kurta",
-    "name": "Olive Green Chanderi Silk Chikankari Kurta",
+    "websiteName": "502 | Olive Green Chanderi Silk Chikankari Stitched Kurta",
+    "name": "Olive Green Chanderi Silk Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -2776,11 +3119,11 @@
   },
   {
     "id": "rumi-060",
-    "slug": "pastel-blue-chanderi-silk-chikankari-kurta",
+    "slug": "pastel-blue-chanderi-silk-chikankari-stitched-kurta",
     "identifier": "502",
     "newArticleNumber": "502",
-    "websiteName": "502 | Pastel Blue Chanderi Silk Chikankari Kurta",
-    "name": "Pastel Blue Chanderi Silk Chikankari Kurta",
+    "websiteName": "502 | Pastel Blue Chanderi Silk Chikankari Stitched Kurta",
+    "name": "Pastel Blue Chanderi Silk Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -3121,11 +3464,11 @@
   },
   {
     "id": "rumi-068",
-    "slug": "pink-chanderi-silk-chikankari-short-kurti",
+    "slug": "pink-chanderi-silk-chikankari-short-stitched-kurta",
     "identifier": "503",
     "newArticleNumber": "503",
-    "websiteName": "503 | Pink Chanderi Silk Chikankari Short Kurti",
-    "name": "Pink Chanderi Silk Chikankari Short Kurti",
+    "websiteName": "503 | Pink Chanderi Silk Chikankari Short Stitched Kurta",
+    "name": "Pink Chanderi Silk Chikankari Short Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -3163,11 +3506,11 @@
   },
   {
     "id": "rumi-069",
-    "slug": "ferrari-red-cotton-full-work-chikankari-kurta",
+    "slug": "ferrari-red-cotton-full-work-chikankari-stitched-kurta",
     "identifier": "504",
     "newArticleNumber": "504",
-    "websiteName": "504 | Ferrari Red Cotton Full Work Chikankari Kurta",
-    "name": "Ferrari Red Cotton Full Work Chikankari Kurta",
+    "websiteName": "504 | Ferrari Red Cotton Full Work Chikankari Stitched Kurta",
+    "name": "Ferrari Red Cotton Full Work Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -3210,11 +3553,11 @@
   },
   {
     "id": "rumi-070",
-    "slug": "men-s-cotton-kurta-with-chikankari-chhadi-work",
+    "slug": "men-s-stitched-cotton-kurta-with-chikankari-chhadi-work",
     "identifier": "505",
     "newArticleNumber": "505",
-    "websiteName": "505 | Men's Cotton Kurta with Chikankari Chhadi Work",
-    "name": "Men's Cotton Kurta with Chikankari Chhadi Work",
+    "websiteName": "505 | Men's Stitched Cotton Kurta with Chikankari Chhadi Work",
+    "name": "Men's Stitched Cotton Kurta with Chikankari Chhadi Work",
     "status": "available",
     "available": true,
     "images": [
@@ -3306,11 +3649,11 @@
   },
   {
     "id": "rumi-073",
-    "slug": "baby-pink-cotton-chikankari-kurta-2",
+    "slug": "baby-pink-cotton-chikankari-stitched-kurta-2",
     "identifier": "507",
     "newArticleNumber": "507",
-    "websiteName": "507 | Baby Pink Cotton Chikankari Kurta",
-    "name": "Baby Pink Cotton Chikankari Kurta",
+    "websiteName": "507 | Baby Pink Cotton Chikankari Stitched Kurta",
+    "name": "Baby Pink Cotton Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -3351,11 +3694,11 @@
   },
   {
     "id": "rumi-074",
-    "slug": "sky-blue-cotton-chikankari-kurta-2",
+    "slug": "sky-blue-cotton-chikankari-stitched-kurta",
     "identifier": "507",
     "newArticleNumber": "507",
-    "websiteName": "507 | Sky Blue Cotton Chikankari Kurta",
-    "name": "Sky Blue Cotton Chikankari Kurta",
+    "websiteName": "507 | Sky Blue Cotton Chikankari Stitched Kurta",
+    "name": "Sky Blue Cotton Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -3437,11 +3780,11 @@
   },
   {
     "id": "rumi-076",
-    "slug": "pants-with-chikankari",
+    "slug": "stitched-pants-with-chikankari",
     "identifier": "509",
     "newArticleNumber": "509",
-    "websiteName": "509 | Pants with Chikankari",
-    "name": "Pants with Chikankari",
+    "websiteName": "509 | Stitched Pants with Chikankari",
+    "name": "Stitched Pants with Chikankari",
     "status": "available",
     "available": true,
     "images": [
@@ -3477,11 +3820,11 @@
   },
   {
     "id": "rumi-077",
-    "slug": "hot-chocolate-georgette-full-work-chikankari-kurta",
+    "slug": "hot-chocolate-georgette-full-work-chikankari-stitched-kurta",
     "identifier": "510",
     "newArticleNumber": "510",
-    "websiteName": "510 | Hot Chocolate Georgette Full Work Chikankari Kurta",
-    "name": "Hot Chocolate Georgette Full Work Chikankari Kurta",
+    "websiteName": "510 | Hot Chocolate Georgette Full Work Chikankari Stitched Kurta",
+    "name": "Hot Chocolate Georgette Full Work Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -3526,11 +3869,11 @@
   },
   {
     "id": "rumi-078",
-    "slug": "vintage-rose-pink-georgette-full-work-chikankari-kurta",
+    "slug": "vintage-rose-pink-georgette-full-work-chikankari-stitched-kurta",
     "identifier": "510",
     "newArticleNumber": "510",
-    "websiteName": "510 | Vintage Rose Pink Georgette Full Work Chikankari Kurta",
-    "name": "Vintage Rose Pink Georgette Full Work Chikankari Kurta",
+    "websiteName": "510 | Vintage Rose Pink Georgette Full Work Chikankari Stitched Kurta",
+    "name": "Vintage Rose Pink Georgette Full Work Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -3574,11 +3917,11 @@
   },
   {
     "id": "rumi-079",
-    "slug": "wildberry-purple-georgette-full-work-chikankari-kurta",
+    "slug": "wildberry-purple-georgette-full-work-chikankari-stitched-kurta",
     "identifier": "510",
     "newArticleNumber": "510",
-    "websiteName": "510 | Wildberry Purple Georgette Full Work Chikankari Kurta",
-    "name": "Wildberry Purple Georgette Full Work Chikankari Kurta",
+    "websiteName": "510 | Wildberry Purple Georgette Full Work Chikankari Stitched Kurta",
+    "name": "Wildberry Purple Georgette Full Work Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [
@@ -3622,11 +3965,11 @@
   },
   {
     "id": "rumi-080",
-    "slug": "gold-yellow-georgette-full-work-chikankari-kurta",
+    "slug": "gold-yellow-georgette-full-work-chikankari-stitched-kurta",
     "identifier": "510",
     "newArticleNumber": "510",
-    "websiteName": "510 | Gold Yellow Georgette Full Work Chikankari Kurta",
-    "name": "Gold Yellow Georgette Full Work Chikankari Kurta",
+    "websiteName": "510 | Gold Yellow Georgette Full Work Chikankari Stitched Kurta",
+    "name": "Gold Yellow Georgette Full Work Chikankari Stitched Kurta",
     "status": "available",
     "available": true,
     "images": [

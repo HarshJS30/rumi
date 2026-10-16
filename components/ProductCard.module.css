@@ -159,12 +159,12 @@
   }
 
   .info {
-    min-height: 0;
+    min-height: 96px;
     gap: 4px;
   }
 
   .price {
-    margin-top: 4px;
+    margin-top: auto;
   }
 }
 

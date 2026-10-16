@@ -30,7 +30,7 @@ export default function CartPage() {
                   )
                   .join(", ")}`
               : "Options: None"
-          }\n   Unit price: ${formatPrice(
+          }${line.isStitched && line.note ? `\n   ${line.note}` : ""}\n   Unit price: ${formatPrice(
             lineUnitPrice(line),
           )}\n   Line total: ${formatPrice(
             lineUnitPrice(line) * line.quantity,
@@ -107,6 +107,9 @@ export default function CartPage() {
                       .filter(Boolean)
                       .join(" · ") || "No options selected"}
                   </p>
+                  {line.isStitched && line.note && (
+                    <small className="stitched-note cart-stitched-note">{line.note}</small>
+                  )}
                   <span>{formatPrice(lineUnitPrice(line))} each</span>
                   <div className="cart-controls">
                     <div className="quantity-control">

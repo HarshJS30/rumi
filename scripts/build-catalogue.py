@@ -49,6 +49,24 @@ def category_of(silhouette, options):
     return "Straight Kurta" if s else None
 
 
+def price_override_for(product, overrides):
+    direct = overrides.get(product["websiteName"])
+    if direct:
+        return direct
+
+    identifier = product.get("identifier")
+    colors = [re.escape(tidy(color)) for color in product.get("colorGroup", []) if tidy(color)]
+    if not identifier or not colors:
+        return None
+    candidates = [
+        value
+        for key, value in overrides.items()
+        if re.match(rf"^\s*{re.escape(identifier)}\s*(?:\||I)\s*", key, flags=re.I)
+        and any(re.search(rf"\b{color}\b", key, flags=re.I) for color in colors)
+    ]
+    return candidates[0] if len(candidates) == 1 else None
+
+
 with CSV.open("r", newline="", encoding="utf-8-sig") as stream:
     reader = csv.DictReader(stream)
     rows = list(reader)
@@ -194,7 +212,7 @@ for index, row in enumerate(rows, 1):
 
 price_warnings = []
 for product in products.values():
-    price_override = price_overrides.get(product["websiteName"])
+    price_override = price_override_for(product, price_overrides)
     if price_override:
         conflicts = []
         if product.get("mrp") != price_override.get("mrp"):
@@ -220,6 +238,26 @@ for product in products.values():
     product.pop("article", None)
 
 catalogue = list(products.values())
+stitched_note = "For measurements, talk to our team at the time of check out."
+for product in catalogue:
+    if (product.get("size") or "").strip().casefold() != "na":
+        continue
+    options = product.setdefault("setOptions", [])
+    stitched = next((option for option in options if option.get("id") == "get-it-stitched"), None)
+    existing_prices = [option["price"] for option in options if option.get("id") != "get-it-stitched"]
+    if not existing_prices:
+        continue
+    stitched_data = {
+        "id": "get-it-stitched",
+        "name": "Get it stitched",
+        "price": max(existing_prices) + 1200,
+        "isStitched": True,
+        "note": stitched_note,
+    }
+    if stitched:
+        stitched.update(stitched_data)
+    else:
+        options.append(stitched_data)
 # Dict insertion order preserves the first row order from the supplier sheet.
 used = set()
 for product in catalogue:

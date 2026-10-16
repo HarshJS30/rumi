@@ -3,7 +3,7 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { type Product } from "./products";
 
-export type CartLine = { key: string; productId: string; slug: string; name: string; image: string; basePrice: number; setName?: string; size?: number; optionIds: string[]; options: { id: string; name: string; priceAdjustment: number }[]; quantity: number };
+export type CartLine = { key: string; productId: string; slug: string; name: string; image: string; basePrice: number; setName?: string; isStitched?: boolean; note?: string; size?: number; optionIds: string[]; options: { id: string; name: string; priceAdjustment: number }[]; quantity: number };
 type CartOption = CartLine["options"][number];
 type CartContextValue = { lines: CartLine[]; hydrated: boolean; add: (product: Product, optionIds: string[], quantity: number, setOptionId?: string, size?: number) => void; setQuantity: (key: string, quantity: number) => void; remove: (key: string) => void; clear: () => void; subtotal: number; count: number };
 const CartContext = createContext<CartContextValue | null>(null);
@@ -60,6 +60,8 @@ function restoreCartLine(value: unknown): CartLine | null {
     image,
     basePrice,
     setName: typeof value.setName === "string" ? value.setName : "",
+    isStitched: value.isStitched === true,
+    note: typeof value.note === "string" ? value.note : undefined,
     size: typeof value.size === "number" && Number.isFinite(value.size) ? value.size : undefined,
     options,
     optionIds,
@@ -95,8 +97,10 @@ export function CartProvider({ children }: { children: ReactNode }) {
       const selectedSet = product.setOptions.find(option => option.id === setOptionId) ?? product.setOptions[0];
       const basePrice = selectedSet?.price ?? product.basePrice;
       const setName = selectedSet?.name ?? "";
+      const isStitched = selectedSet?.isStitched === true;
+      const note = isStitched ? selectedSet?.note : undefined;
       const key = `${product.id}:${selectedSet?.id ?? "base"}:${size ?? "na"}:${[...optionIds].sort().join(",") || "base"}`;
-      setLines(current => { const found = current.find(line => line.key === key); return found ? current.map(line => line.key === key ? { ...line, quantity: line.quantity + quantity } : line) : [...current, { key, productId: product.id, slug: product.slug, name: product.name, image: product.images[0] || "", basePrice, setName, size, optionIds: [...optionIds], options, quantity }]; });
+      setLines(current => { const found = current.find(line => line.key === key); return found ? current.map(line => line.key === key ? { ...line, quantity: line.quantity + quantity } : line) : [...current, { key, productId: product.id, slug: product.slug, name: product.name, image: product.images[0] || "", basePrice, setName, isStitched, note, size, optionIds: [...optionIds], options, quantity }]; });
     },
     setQuantity(key, quantity) { setLines(current => quantity <= 0 ? current.filter(line => line.key !== key) : current.map(line => line.key === key ? { ...line, quantity } : line)); },
     remove(key) { setLines(current => current.filter(line => line.key !== key)); }, clear() { setLines([]); },
