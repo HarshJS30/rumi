@@ -1,0 +1,720 @@
+﻿{
+  "csvRows": {
+    "before": 80,
+    "after": 80
+  },
+  "products": {
+    "added": [],
+    "removed": [],
+    "catalogueAdded": [],
+    "catalogueRemoved": []
+  },
+  "csvChanges": {
+    "142 | celtic blue mul a line suit with mukaish & pitta work": {
+      "MRP": {
+        "before": [
+          "7200"
+        ],
+        "after": [
+          "6950"
+        ]
+      },
+      "Price Option 1": {
+        "before": [
+          "7200"
+        ],
+        "after": [
+          "6950"
+        ]
+      }
+    },
+    "142 | emerald green mul a line suit with mukaish & pitta work": {
+      "MRP": {
+        "before": [
+          "7200"
+        ],
+        "after": [
+          "6950"
+        ]
+      },
+      "Price Option 1": {
+        "before": [
+          "7200"
+        ],
+        "after": [
+          "6950"
+        ]
+      }
+    },
+    "142 | midnight black mul a line suit with mukaish & pitta work": {
+      "MRP": {
+        "before": [
+          "7200"
+        ],
+        "after": [
+          "6950"
+        ]
+      },
+      "Price Option 1": {
+        "before": [
+          "7200"
+        ],
+        "after": [
+          "6950"
+        ]
+      }
+    },
+    "142 | scarlet red mul a line suit with mukaish & pitta work": {
+      "MRP": {
+        "before": [
+          "7200"
+        ],
+        "after": [
+          "6950"
+        ]
+      },
+      "Price Option 1": {
+        "before": [
+          "7200"
+        ],
+        "after": [
+          "6950"
+        ]
+      }
+    },
+    "510 | gold yellow georgette full work chikankari kurta": {
+      "Price Option 2": {
+        "before": [],
+        "after": [
+          "5150"
+        ]
+      },
+      "Collection Tagging": {
+        "before": [],
+        "after": [
+          "New Arrival"
+        ]
+      },
+      "Fabric": {
+        "before": [],
+        "after": [
+          "Georgette"
+        ]
+      },
+      "Colour": {
+        "before": [],
+        "after": [
+          "Gold Yellow"
+        ]
+      },
+      "Silhouette": {
+        "before": [],
+        "after": [
+          "Straight"
+        ]
+      },
+      "Pattern": {
+        "before": [],
+        "after": [
+          "Chikankari Threadwork"
+        ]
+      }
+    },
+    "510 | hot chocolate georgette full work chikankari kurta": {
+      "Price Option 2": {
+        "before": [],
+        "after": [
+          "5150"
+        ]
+      },
+      "Collection Tagging": {
+        "before": [],
+        "after": [
+          "New Arrival"
+        ]
+      },
+      "Fabric": {
+        "before": [],
+        "after": [
+          "Georgette"
+        ]
+      },
+      "Colour": {
+        "before": [],
+        "after": [
+          "Hot Chocolate Brown"
+        ]
+      },
+      "Silhouette": {
+        "before": [],
+        "after": [
+          "Straight"
+        ]
+      },
+      "Pattern": {
+        "before": [],
+        "after": [
+          "Chikankari Threadwork"
+        ]
+      }
+    },
+    "510 | vintage rose pink georgette full work chikankari kurta": {
+      "Price Option 2": {
+        "before": [],
+        "after": [
+          "5150"
+        ]
+      },
+      "Collection Tagging": {
+        "before": [],
+        "after": [
+          "New Arrival"
+        ]
+      },
+      "Fabric": {
+        "before": [],
+        "after": [
+          "Georgette"
+        ]
+      },
+      "Colour": {
+        "before": [],
+        "after": [
+          "Vintage Rose"
+        ]
+      },
+      "Silhouette": {
+        "before": [],
+        "after": [
+          "Straight"
+        ]
+      },
+      "Pattern": {
+        "before": [],
+        "after": [
+          "Chikankari Threadwork"
+        ]
+      }
+    },
+    "510 | wildberry purple georgette full work chikankari kurta": {
+      "Price Option 2": {
+        "before": [],
+        "after": [
+          "5150"
+        ]
+      },
+      "Collection Tagging": {
+        "before": [],
+        "after": [
+          "New Arrival"
+        ]
+      },
+      "Fabric": {
+        "before": [],
+        "after": [
+          "Georgette"
+        ]
+      },
+      "Colour": {
+        "before": [],
+        "after": [
+          "Wildberry Purple"
+        ]
+      },
+      "Silhouette": {
+        "before": [],
+        "after": [
+          "Straight"
+        ]
+      },
+      "Pattern": {
+        "before": [],
+        "after": [
+          "Chikankari Threadwork"
+        ]
+      }
+    }
+  },
+  "catalogueChanges": {
+    "502 | pastel blue chanderi silk chikankari kurta": {
+      "hasPhotos": {
+        "before": false,
+        "after": true
+      },
+      "photoSource": {
+        "before": null,
+        "after": "direct"
+      },
+      "images": {
+        "before": [],
+        "after": [
+          "/photoshoot/112-pastel-blue-chanderi-silk-chikankari-kurta/light-blue-embroidered-kurta-display.webp"
+        ]
+      }
+    },
+    "508 | dupatta with chikankari": {
+      "hasPhotos": {
+        "before": false,
+        "after": true
+      },
+      "photoSource": {
+        "before": null,
+        "after": "direct"
+      },
+      "photoFolder": {
+        "before": "114 - Dupatta with Chikankari",
+        "after": "508 - Dupatta with chikankari"
+      },
+      "images": {
+        "before": [],
+        "after": [
+          "/photoshoot/508-dupatta-with-chikankari/elegant-white-embroidered-textile-flatlay.webp",
+          "/photoshoot/508-dupatta-with-chikankari/embroidered-white-dupatta-in-warm-interior.webp",
+          "/photoshoot/508-dupatta-with-chikankari/embroidered-white-linen-with-jasmine-accents.webp"
+        ]
+      }
+    },
+    "509 | pants with chikankari": {
+      "hasPhotos": {
+        "before": false,
+        "after": true
+      },
+      "photoSource": {
+        "before": null,
+        "after": "direct"
+      },
+      "photoFolder": {
+        "before": "115 - Pants with Chikankari",
+        "after": "509 - Pants with Chikankari"
+      },
+      "images": {
+        "before": [],
+        "after": [
+          "/photoshoot/509-pants-with-chikankari/embroidered-white-pants-in-a-warm-boutique-interior.webp",
+          "/photoshoot/509-pants-with-chikankari/embroidered-white-textile-with-jasmine-and-brass-accents.webp",
+          "/photoshoot/509-pants-with-chikankari/white-embroidered-straight-pants-flat-lay.webp"
+        ]
+      }
+    },
+    "510 | gold yellow georgette full work chikankari kurta": {
+      "setOptions": {
+        "before": [
+          {
+            "id": "kurta",
+            "name": "Kurta",
+            "price": 3650
+          }
+        ],
+        "after": [
+          {
+            "id": "kurta",
+            "name": "Kurta",
+            "price": 3650
+          },
+          {
+            "id": "kurta-white-dupatta-bottom",
+            "name": "Kurta + White Dupatta & Bottom",
+            "price": 5150
+          }
+        ]
+      },
+      "tags": {
+        "before": [],
+        "after": [
+          "new-arrival"
+        ]
+      },
+      "fabric": {
+        "before": null,
+        "after": "Georgette"
+      },
+      "color": {
+        "before": null,
+        "after": "Gold Yellow"
+      },
+      "silhouette": {
+        "before": null,
+        "after": "Straight"
+      },
+      "pattern": {
+        "before": null,
+        "after": "Chikankari Threadwork"
+      },
+      "hasPhotos": {
+        "before": false,
+        "after": true
+      },
+      "photoSource": {
+        "before": null,
+        "after": "direct"
+      },
+      "photoFolder": {
+        "before": null,
+        "after": "510 - Gold Yellow Georgette Full Work Chikankari Kurta"
+      },
+      "images": {
+        "before": [],
+        "after": [
+          "/photoshoot/510-gold-yellow-georgette-full-work-chikankari-kurta/embroidered-mustard-kurta-display.webp"
+        ]
+      }
+    },
+    "510 | hot chocolate georgette full work chikankari kurta": {
+      "setOptions": {
+        "before": [
+          {
+            "id": "kurta",
+            "name": "Kurta",
+            "price": 3650
+          }
+        ],
+        "after": [
+          {
+            "id": "kurta",
+            "name": "Kurta",
+            "price": 3650
+          },
+          {
+            "id": "kurta-white-dupatta-bottom",
+            "name": "Kurta + White Dupatta & Bottom",
+            "price": 5150
+          }
+        ]
+      },
+      "tags": {
+        "before": [],
+        "after": [
+          "new-arrival"
+        ]
+      },
+      "fabric": {
+        "before": null,
+        "after": "Georgette"
+      },
+      "color": {
+        "before": null,
+        "after": "Hot Chocolate Brown"
+      },
+      "silhouette": {
+        "before": null,
+        "after": "Straight"
+      },
+      "pattern": {
+        "before": null,
+        "after": "Chikankari Threadwork"
+      },
+      "hasPhotos": {
+        "before": false,
+        "after": true
+      },
+      "photoSource": {
+        "before": null,
+        "after": "direct"
+      },
+      "photoFolder": {
+        "before": null,
+        "after": "510 - Hot Chocolate Georgette Full Work Chikankari Kurta"
+      },
+      "images": {
+        "before": [],
+        "after": [
+          "/photoshoot/510-hot-chocolate-georgette-full-work-chikankari-kurta/embroidered-mauve-kurta-in-warm-studio-light-1.webp"
+        ]
+      }
+    },
+    "510 | vintage rose pink georgette full work chikankari kurta": {
+      "setOptions": {
+        "before": [
+          {
+            "id": "kurta",
+            "name": "Kurta",
+            "price": 3650
+          }
+        ],
+        "after": [
+          {
+            "id": "kurta",
+            "name": "Kurta",
+            "price": 3650
+          },
+          {
+            "id": "kurta-white-dupatta-bottom",
+            "name": "Kurta + White Dupatta & Bottom",
+            "price": 5150
+          }
+        ]
+      },
+      "tags": {
+        "before": [],
+        "after": [
+          "new-arrival"
+        ]
+      },
+      "fabric": {
+        "before": null,
+        "after": "Georgette"
+      },
+      "color": {
+        "before": null,
+        "after": "Vintage Rose"
+      },
+      "silhouette": {
+        "before": null,
+        "after": "Straight"
+      },
+      "pattern": {
+        "before": null,
+        "after": "Chikankari Threadwork"
+      },
+      "hasPhotos": {
+        "before": false,
+        "after": true
+      },
+      "photoSource": {
+        "before": null,
+        "after": "direct"
+      },
+      "photoFolder": {
+        "before": null,
+        "after": "510 - Vintage Rose Pink Georgette Full Work Chikankari Kurta"
+      },
+      "images": {
+        "before": [],
+        "after": [
+          "/photoshoot/510-vintage-rose-pink-georgette-full-work-chikankari-kurta/dusty-rose-embroidered-kurta-display.webp"
+        ]
+      }
+    },
+    "510 | wildberry purple georgette full work chikankari kurta": {
+      "setOptions": {
+        "before": [
+          {
+            "id": "kurta",
+            "name": "Kurta",
+            "price": 3650
+          }
+        ],
+        "after": [
+          {
+            "id": "kurta",
+            "name": "Kurta",
+            "price": 3650
+          },
+          {
+            "id": "kurta-white-dupatta-bottom",
+            "name": "Kurta + White Dupatta & Bottom",
+            "price": 5150
+          }
+        ]
+      },
+      "tags": {
+        "before": [],
+        "after": [
+          "new-arrival"
+        ]
+      },
+      "fabric": {
+        "before": null,
+        "after": "Georgette"
+      },
+      "color": {
+        "before": null,
+        "after": "Wildberry Purple"
+      },
+      "silhouette": {
+        "before": null,
+        "after": "Straight"
+      },
+      "pattern": {
+        "before": null,
+        "after": "Chikankari Threadwork"
+      },
+      "hasPhotos": {
+        "before": false,
+        "after": true
+      },
+      "photoSource": {
+        "before": null,
+        "after": "direct"
+      },
+      "photoFolder": {
+        "before": null,
+        "after": "510 - Wildberry Purple Georgette Full Work Chikankari Kurta"
+      },
+      "images": {
+        "before": [],
+        "after": [
+          "/photoshoot/510-wildberry-purple-georgette-full-work-chikankari-kurta/mauve-embroidered-kurta-on-brass-rack.webp"
+        ]
+      }
+    }
+  },
+  "article142Prices": {
+    "142 | Celtic Blue Mul A Line Suit with Mukaish & Pitta Work": {
+      "sheet": {
+        "MRP": [
+          "6950"
+        ],
+        "Price Option 1": [
+          "6950"
+        ]
+      },
+      "override": {
+        "mrp": 7200,
+        "priceOption1": 7200
+      },
+      "catalogue": {
+        "MRP": 7200,
+        "Price Option 1": 7200
+      }
+    },
+    "142 | Emerald Green Mul A Line Suit with Mukaish & Pitta Work": {
+      "sheet": {
+        "MRP": [
+          "6950"
+        ],
+        "Price Option 1": [
+          "6950"
+        ]
+      },
+      "override": {
+        "mrp": 7200,
+        "priceOption1": 7200
+      },
+      "catalogue": {
+        "MRP": 7200,
+        "Price Option 1": 7200
+      }
+    },
+    "142 | Midnight Black Mul A Line Suit with Mukaish & Pitta Work": {
+      "sheet": {
+        "MRP": [
+          "6950"
+        ],
+        "Price Option 1": [
+          "6950"
+        ]
+      },
+      "override": {
+        "mrp": 7200,
+        "priceOption1": 7200
+      },
+      "catalogue": {
+        "MRP": 7200,
+        "Price Option 1": 7200
+      }
+    },
+    "142 | Scarlet Red Mul A Line Suit with Mukaish & Pitta Work": {
+      "sheet": {
+        "MRP": [
+          "6950"
+        ],
+        "Price Option 1": [
+          "6950"
+        ]
+      },
+      "override": {
+        "mrp": 7200,
+        "priceOption1": 7200
+      },
+      "catalogue": {
+        "MRP": 7200,
+        "Price Option 1": 7200
+      }
+    }
+  },
+  "article510Fields": {
+    "510 | Hot Chocolate Georgette Full Work Chikankari Kurta": {
+      "Article": [
+        "(missing)"
+      ],
+      "New Article Number": [
+        "510"
+      ],
+      "MRP": [
+        "3650"
+      ],
+      "Price Option 1": [
+        "3650"
+      ],
+      "Price Option 2": [
+        "5150"
+      ],
+      "Dyeable": [
+        "(missing)"
+      ],
+      "Length": [
+        "(missing)"
+      ]
+    },
+    "510 | Vintage Rose Pink Georgette Full Work Chikankari Kurta": {
+      "Article": [
+        "(missing)"
+      ],
+      "New Article Number": [
+        "510"
+      ],
+      "MRP": [
+        "3650"
+      ],
+      "Price Option 1": [
+        "3650"
+      ],
+      "Price Option 2": [
+        "5150"
+      ],
+      "Dyeable": [
+        "(missing)"
+      ],
+      "Length": [
+        "(missing)"
+      ]
+    },
+    "510 | Wildberry Purple Georgette Full Work Chikankari Kurta": {
+      "Article": [
+        "(missing)"
+      ],
+      "New Article Number": [
+        "510"
+      ],
+      "MRP": [
+        "3650"
+      ],
+      "Price Option 1": [
+        "3650"
+      ],
+      "Price Option 2": [
+        "5150"
+      ],
+      "Dyeable": [
+        "(missing)"
+      ],
+      "Length": [
+        "(missing)"
+      ]
+    },
+    "510 | Gold Yellow Georgette Full Work Chikankari Kurta": {
+      "Article": [
+        "(missing)"
+      ],
+      "New Article Number": [
+        "510"
+      ],
+      "MRP": [
+        "3650"
+      ],
+      "Price Option 1": [
+        "3650"
+      ],
+      "Price Option 2": [
+        "5150"
+      ],
+      "Dyeable": [
+        "(missing)"
+      ],
+      "Length": [
+        "(missing)"
+      ]
+    }
+  }
+}

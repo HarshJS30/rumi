@@ -15,43 +15,42 @@ export default function ProductListing({
 }: ProductListingProps) {
   const [filterOpen, setFilterOpen] = useState(false);
   const [category, setCategory] = useState("All pieces");
-  const [color, setColor] = useState("All colors");
+  const [colorsSelected, setColorsSelected] = useState<string[]>([]);
   const [fabric, setFabric] = useState("All fabrics");
-  const [availability, setAvailability] = useState(false);
-  const categories = [...new Set(products.map((product) => product.category))];
-  const colors = [...new Set(products.map((product) => product.color))];
-  const fabrics = [...new Set(products.map((product) => product.fabric))];
+  const filterProducts = products;
+  const categories = [...new Set(filterProducts.map((product) => product.category).filter((value): value is string => Boolean(value)))];
+  const colors = [...new Set(filterProducts.flatMap((product) => product.colorGroup ?? []))].sort();
+  const fabrics = [...new Set(filterProducts.map((product) => product.fabric).filter((value): value is string => Boolean(value)))];
   const normalizedQuery = initialQuery.trim().toLocaleLowerCase();
 
   const shown = useMemo(
     () =>
-      products.filter((product) => {
+      filterProducts.filter((product) => {
         const matchesQuery =
           !normalizedQuery ||
           [
             product.websiteName,
             product.name,
             product.color,
+            ...(product.colorGroup ?? []),
             product.category,
             product.fabric,
-          ].some((value) => value.toLocaleLowerCase().includes(normalizedQuery));
+          ].some((value) => value?.toLocaleLowerCase().includes(normalizedQuery));
 
         return (
           matchesQuery &&
           (category === "All pieces" || product.category === category) &&
-          (color === "All colors" || product.color === color) &&
-          (fabric === "All fabrics" || product.fabric === fabric) &&
-          (!availability || product.available)
+          (colorsSelected.length === 0 || colorsSelected.some((color) => product.colorGroup?.includes(color))) &&
+          (fabric === "All fabrics" || product.fabric === fabric)
         );
       }),
-    [availability, category, color, fabric, normalizedQuery],
+    [category, colorsSelected, fabric, normalizedQuery],
   );
 
   const clearFilters = () => {
     setCategory("All pieces");
-    setColor("All colors");
+    setColorsSelected([]);
     setFabric("All fabrics");
-    setAvailability(false);
   };
 
   return (
@@ -95,18 +94,16 @@ export default function ProductListing({
                 ))}
               </select>
             </label>
-            <label>
-              Color
-              <select
-                value={color}
-                onChange={(event) => setColor(event.target.value)}
-              >
-                <option>All colors</option>
-                {colors.map((item) => (
-                  <option key={item}>{item}</option>
-                ))}
-              </select>
-            </label>
+            <fieldset className="color-filter">
+              <legend>Color</legend>
+              {colors.map((item) => {
+                const count = filterProducts.filter((product) => product.colorGroup?.includes(item)).length;
+                return <label key={item}>
+                  <input type="checkbox" checked={colorsSelected.includes(item)} onChange={(event) => setColorsSelected((current) => event.target.checked ? [...current, item] : current.filter((value) => value !== item))} />
+                  {item} <span>({count})</span>
+                </label>;
+              })}
+            </fieldset>
             <label>
               Fabric
               <select
@@ -118,14 +115,6 @@ export default function ProductListing({
                   <option key={item}>{item}</option>
                 ))}
               </select>
-            </label>
-            <label className="availability-filter">
-              <input
-                type="checkbox"
-                checked={availability}
-                onChange={(event) => setAvailability(event.target.checked)}
-              />
-              Available pieces
             </label>
             <button className="clear-filter" onClick={clearFilters}>
               Clear
@@ -155,9 +144,7 @@ export default function ProductListing({
                       sizes="(max-width: 640px) 48vw, (max-width: 1024px) 32vw, 24vw"
                     />
                   ) : (
-                    <span className="missing-product-image">
-                      Photograph coming soon
-                    </span>
+                    <span className="missing-product-image">Photos coming soon</span>
                   )}
                   {!product.available && (
                     <span className="sold-label">Sold out</span>
@@ -173,7 +160,7 @@ export default function ProductListing({
                   <span>{formatPrice(product.basePrice)}</span>
                 </div>
                 <p className="product-detail-meta">
-                  {product.color} · {product.category}
+                  {[product.color, product.category].filter(Boolean).join(" · ")}
                 </p>
               </article>
             ))}

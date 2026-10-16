@@ -1,0 +1,27 @@
+# Local photo sources and catalogue-generation tooling.
+raw-photos/
+scripts/
+
+# Source sheets and generated catalogue diagnostics.
+data/*.csv
+data/*.txt
+data/*before*.json
+data/*diff*.json
+data/*report*.json
+data/photoshoot.json
+data/folder-overrides.json
+data/price-overrides.json
+
+# Unreferenced legacy product photos kept in Git for reference.
+public/anarkali_white_heavy_1.png
+public/anarkali_white_heavy_2.JPG
+public/anarkali_yellow_1.jpg
+public/anarkali_yellow_2.jpg
+public/blue_chanderi_1.jpg
+public/blue_chanderi_2.jpg
+public/kota_chicken_blue_1.jpg
+public/kota_chicken_blue_2.jpg
+public/kota_chicken_orange_1.jpg
+public/kota_chicken_orange_2.jpg
+public/kota_chicken_pink_green_1.png
+public/pink_anarkali_1.png

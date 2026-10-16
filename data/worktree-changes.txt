@@ -1,0 +1,171 @@
+﻿Workspace files modified or generated at completion (includes earlier storefront work in this update sequence):
+ M app/page.tsx
+ M app/store.css
+ M components/MensWear.jsx
+ M components/NewArrivals.jsx
+ M components/ProductCard.jsx
+ M components/ProductCard.module.css
+ M components/ProductDetail.tsx
+ M components/ProductListing.tsx
+ M components/ProductSection.module.css
+ M components/WomensWear.jsx
+ M data/catalogue.json
+ M data/photoshoot.json
+ M data/website-sheet.csv
+ M lib/products.ts
+ M package.json
+ D public/photoshoot/104-red-mul-chikankari-straight-suit/5513b1a4-f393-45fa-bffb-64818df71d06-1.webp
+ D public/photoshoot/104-red-mul-chikankari-straight-suit/5513b1a4-f393-45fa-bffb-64818df71d06-2.webp
+ D public/photoshoot/104-red-mul-chikankari-straight-suit/5513b1a4-f393-45fa-bffb-64818df71d06-3.webp
+ D public/photoshoot/104-red-mul-chikankari-straight-suit/5513b1a4-f393-45fa-bffb-64818df71d06-4.webp
+ D public/photoshoot/104-red-mul-chikankari-straight-suit/5513b1a4-f393-45fa-bffb-64818df71d06.webp
+ D public/photoshoot/106-blue-mul-straight-panel-with-chikankari-pearl-and-cutdana/02acbffb-3ef7-4063-8cb7-2da52e9ff11c.webp
+ D public/photoshoot/106-blue-mul-straight-panel-with-chikankari-pearl-and-cutdana/34e3ec40-16e7-4c9f-b4fe-7f3d1d342471.webp
+ D public/photoshoot/106-blue-mul-straight-panel-with-chikankari-pearl-and-cutdana/432b49cf-bf49-4648-a319-ff2fdae67e58.webp
+ D public/photoshoot/106-blue-mul-straight-panel-with-chikankari-pearl-and-cutdana/b4a093b7-738e-4059-b9e4-ec28231ba91f.webp
+ D public/photoshoot/119-powder-blue-mul-straight-kurta-set-with-embellished-neckline/copy-of-img-7129.webp
+ D public/photoshoot/137-apricot-peach-mul-straight-panel-with-chikankari-pearl-cutdana-and-lace/88017a50-94a8-4179-aaef-95fa44d0fb43.webp
+ D public/photoshoot/137-apricot-peach-mul-straight-panel-with-chikankari-pearl-cutdana-and-lace/e7b19e32-5442-470e-b041-8b7efeef876b.webp
+ D public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/0bf9eb29-6422-4521-b24f-2c746ac400d6.webp
+ D public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/308ae4d6-7f56-42cb-9470-19a5e7d7961b.webp
+ D public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/348efebe-0fed-45bb-b8ce-e332ec939813-1.webp
+ D public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/348efebe-0fed-45bb-b8ce-e332ec939813-2.webp
+ D public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/348efebe-0fed-45bb-b8ce-e332ec939813-3.webp
+ D public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/348efebe-0fed-45bb-b8ce-e332ec939813-4.webp
+ D public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/348efebe-0fed-45bb-b8ce-e332ec939813-5.webp
+ D public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/348efebe-0fed-45bb-b8ce-e332ec939813.webp
+ D public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/c4a8d46c-132c-41e5-b457-d2cbbcb9c5cb.webp
+ D public/photoshoot/138-purple-mul-a-line-chikankari-with-mukaish/68738be2-7f4a-4140-ab3c-5e48c1b93ae1-1.webp
+ D public/photoshoot/138-purple-mul-a-line-chikankari-with-mukaish/68738be2-7f4a-4140-ab3c-5e48c1b93ae1-2.webp
+ D public/photoshoot/138-purple-mul-a-line-chikankari-with-mukaish/68738be2-7f4a-4140-ab3c-5e48c1b93ae1-3.webp
+ D public/photoshoot/138-purple-mul-a-line-chikankari-with-mukaish/68738be2-7f4a-4140-ab3c-5e48c1b93ae1-4.webp
+ D public/photoshoot/138-purple-mul-a-line-chikankari-with-mukaish/68738be2-7f4a-4140-ab3c-5e48c1b93ae1.webp
+ D public/photoshoot/141-yellow-mul-straight-suit-with-chikankari-jaali/7fc9a16b-f885-4c2d-aaee-1cedd1b28d02.webp
+ M public/photoshoot/141-yellow-mul-straight-suit-with-chikankari-jaali/aa43831b-adeb-4a6f-9de6-4371e4ca5718-1.webp
+ D public/photoshoot/141-yellow-mul-straight-suit-with-chikankari-jaali/aa43831b-adeb-4a6f-9de6-4371e4ca5718-2.webp
+ D public/photoshoot/141-yellow-mul-straight-suit-with-chikankari-jaali/aa43831b-adeb-4a6f-9de6-4371e4ca5718-3.webp
+ D public/photoshoot/141-yellow-mul-straight-suit-with-chikankari-jaali/aa43831b-adeb-4a6f-9de6-4371e4ca5718-4.webp
+ M public/photoshoot/141-yellow-mul-straight-suit-with-chikankari-jaali/aa43831b-adeb-4a6f-9de6-4371e4ca5718.webp
+ D public/photoshoot/142-celtic-blue-mul-a-line-suit-with-mukaish-and-pitta-work/23512007-d88e-4d0d-ab97-b340ca0dcaab.webp
+ M public/photoshoot/142-celtic-blue-mul-a-line-suit-with-mukaish-and-pitta-work/3ba738d6-2c9f-4dbe-bd2c-67a03d09e987.webp
+ D public/photoshoot/142-celtic-blue-mul-a-line-suit-with-mukaish-and-pitta-work/9b8e8dde-e981-4645-9412-35b30f0201e2.webp
+ M public/photoshoot/142-emerald-green-mul-a-line-suit-with-mukaish-and-pitta-work/3be8e98d-d95f-4859-9b17-12e163f48033.webp
+ D public/photoshoot/142-emerald-green-mul-a-line-suit-with-mukaish-and-pitta-work/632f4dd0-a601-484c-9f21-c22349ac0272.webp
+ D public/photoshoot/142-emerald-green-mul-a-line-suit-with-mukaish-and-pitta-work/9d3879b1-3192-46a3-9916-b9606caf9d6b.webp
+ D public/photoshoot/142-emerald-green-mul-a-line-suit-with-mukaish-and-pitta-work/d132aeab-76c2-4581-a53f-9f75e602898e.webp
+ D public/photoshoot/142-emerald-green-mul-a-line-suit-with-mukaish-and-pitta-work/e6907168-7a52-4d31-9462-b24798c0f1f3.webp
+ D public/photoshoot/142-midnight-black-mul-a-line-suit-with-mukaish-and-pitta-work/2a238a59-83a6-48dd-ade4-75df8b111e2e.webp
+ D public/photoshoot/142-midnight-black-mul-a-line-suit-with-mukaish-and-pitta-work/45740ce3-a74c-44b7-acca-d517e4c6568f.webp
+ D public/photoshoot/142-midnight-black-mul-a-line-suit-with-mukaish-and-pitta-work/7e321c67-2d85-4986-8745-2ae3fe2c0584.webp
+ D public/photoshoot/142-midnight-black-mul-a-line-suit-with-mukaish-and-pitta-work/f0ed7244-507c-4be3-8101-93381df2baa2.webp
+ D public/photoshoot/142-scarlet-red-mul-a-line-suit-with-mukaish-and-pitta-work/02e8470f-660a-4396-a80f-8f2a24dc9646.webp
+ D public/photoshoot/142-scarlet-red-mul-a-line-suit-with-mukaish-and-pitta-work/5152ff1b-a743-41bb-a9d9-6fe54dfec1fc.webp
+ D public/photoshoot/142-scarlet-red-mul-a-line-suit-with-mukaish-and-pitta-work/d974a8fe-bc41-41cb-aef3-87fc8c989f16.webp
+ M scripts/build-catalogue.mjs
+ M scripts/gdrive_folder_download.py
+ M scripts/optimize-photos.mjs
+?? components/BestSellers.jsx
+?? data/catalogue-before-reimport.json
+?? data/catalogue-diff-report.json
+?? data/catalogue-diff-report.txt
+?? data/catalogue-report.json
+?? data/cover-overrides.json
+?? data/drive-photo-listing-diff.json
+?? data/folder-overrides.json
+?? data/price-overrides.json
+?? data/website-sheet.old.csv
+?? data/website-sheet.received.csv
+?? data/worktree-changes.txt
+?? public/madeeha.png
+?? public/photoshoot/106-blue-mul-straight-panel-with-chikankari-pearl-and-cutdana/0910a212-1e9d-4da6-9686-b00255eec99b.webp
+?? public/photoshoot/106-blue-mul-straight-panel-with-chikankari-pearl-and-cutdana/57a3722f-1f37-4d92-a493-afa7c4bbbd55.webp
+?? public/photoshoot/106-blue-mul-straight-panel-with-chikankari-pearl-and-cutdana/c6714324-e01d-46b1-8bf7-926a9c1a6a89.webp
+?? public/photoshoot/106-blue-mul-straight-panel-with-chikankari-pearl-and-cutdana/db658b44-3c53-4e74-872f-2f5231994343.webp
+?? public/photoshoot/106-blue-mul-straight-panel-with-chikankari-pearl-and-cutdana/f12f54d5-af00-4de2-b7ad-2a2ae7a4bc9e.webp
+?? public/photoshoot/112-pastel-blue-chanderi-silk-chikankari-kurta/light-blue-embroidered-kurta-display.webp
+?? public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/elegant-peach-embroidered-boutique-display.webp
+?? public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/peach-anarkali-in-a-sunlit-heritage-courtyard.webp
+?? public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/peach-chikankari-dress-on-marble.webp
+?? public/photoshoot/138-peach-mul-a-line-chikankari-with-mukaish/peach-elegance-in-a-heritage-courtyard.webp
+?? public/photoshoot/141-yellow-mul-straight-suit-with-chikankari-jaali/luxury-yellow-embroidered-boutique-ensemble.webp
+?? public/photoshoot/141-yellow-mul-straight-suit-with-chikankari-jaali/sunlit-courtyard-elegance-in-yellow.webp
+?? public/photoshoot/141-yellow-mul-straight-suit-with-chikankari-jaali/sunlit-courtyard-in-embroidered-yellow.webp
+?? public/photoshoot/141-yellow-mul-straight-suit-with-chikankari-jaali/sunlit-yellow-embroidery-in-a-heritage-courtyard.webp
+?? public/photoshoot/142-celtic-blue-mul-a-line-suit-with-mukaish-and-pitta-work/0b5a6082-987f-40ae-9b6a-0be85820b5ba.webp
+?? public/photoshoot/142-celtic-blue-mul-a-line-suit-with-mukaish-and-pitta-work/0dd5620c-173b-4d93-81de-ef8c79ff7f04.webp
+?? public/photoshoot/142-celtic-blue-mul-a-line-suit-with-mukaish-and-pitta-work/4909f2d3-83f5-4810-abb8-4dfd9eb6ce41.webp
+?? public/photoshoot/142-celtic-blue-mul-a-line-suit-with-mukaish-and-pitta-work/76d8a067-3bef-42eb-8c05-8a2e6639c3dd.webp
+?? public/photoshoot/142-celtic-blue-mul-a-line-suit-with-mukaish-and-pitta-work/96c879b5-39a5-466f-9998-c163229ad236.webp
+?? public/photoshoot/142-celtic-blue-mul-a-line-suit-with-mukaish-and-pitta-work/df1b6a14-926f-4463-b7bb-d2bf04e2f909.webp
+?? public/photoshoot/142-emerald-green-mul-a-line-suit-with-mukaish-and-pitta-work/50b6b1d7-3e2b-4a54-b033-bff81be2a4c7.webp
+?? public/photoshoot/142-emerald-green-mul-a-line-suit-with-mukaish-and-pitta-work/6c820042-7054-43d9-8c2b-280a9d136749.webp
+?? public/photoshoot/142-emerald-green-mul-a-line-suit-with-mukaish-and-pitta-work/8ee90c9b-9ae9-4d9d-b1b4-6442921404f8.webp
+?? public/photoshoot/142-emerald-green-mul-a-line-suit-with-mukaish-and-pitta-work/afae5d26-22d2-48a1-ac70-8a7698f30dc9.webp
+?? public/photoshoot/142-emerald-green-mul-a-line-suit-with-mukaish-and-pitta-work/baeb6d15-968b-47e6-80a9-d73faf565c52.webp
+?? public/photoshoot/142-emerald-green-mul-a-line-suit-with-mukaish-and-pitta-work/e0c5267f-f713-4afa-a1b2-e50d80829b46.webp
+?? public/photoshoot/142-midnight-black-mul-a-line-suit-with-mukaish-and-pitta-work/09aafbf5-425e-4de4-b25b-0ebb521ca00d.webp
+?? public/photoshoot/142-midnight-black-mul-a-line-suit-with-mukaish-and-pitta-work/58c2a83c-f0eb-45dd-803b-5595e1649de4-1.webp
+?? public/photoshoot/142-midnight-black-mul-a-line-suit-with-mukaish-and-pitta-work/58c2a83c-f0eb-45dd-803b-5595e1649de4.webp
+?? public/photoshoot/142-midnight-black-mul-a-line-suit-with-mukaish-and-pitta-work/79a38d58-0c50-45e0-b881-42b1d50fac68.webp
+?? public/photoshoot/142-midnight-black-mul-a-line-suit-with-mukaish-and-pitta-work/c1c717d5-8d10-4383-b44d-fe132725411e.webp
+?? public/photoshoot/142-midnight-black-mul-a-line-suit-with-mukaish-and-pitta-work/ff33f8b0-4731-45ba-858c-8f937bb8c2ca.webp
+?? public/photoshoot/142-scarlet-red-mul-a-line-suit-with-mukaish-and-pitta-work/3660672f-c6be-4027-aa65-a9447b9f4492.webp
+?? public/photoshoot/142-scarlet-red-mul-a-line-suit-with-mukaish-and-pitta-work/41300f76-b028-4157-bd2d-0e23cbcf1c80.webp
+?? public/photoshoot/142-scarlet-red-mul-a-line-suit-with-mukaish-and-pitta-work/4d773230-90c5-4113-b789-b9a47a87eeb9.webp
+?? public/photoshoot/142-scarlet-red-mul-a-line-suit-with-mukaish-and-pitta-work/78d4f498-7b53-497d-8fe3-f10bad38a404-1.webp
+?? public/photoshoot/508-dupatta-with-chikankari/elegant-white-embroidered-textile-flatlay.webp
+?? public/photoshoot/508-dupatta-with-chikankari/embroidered-white-dupatta-in-warm-interior.webp
+?? public/photoshoot/508-dupatta-with-chikankari/embroidered-white-linen-with-jasmine-accents.webp
+?? public/photoshoot/509-pants-with-chikankari/embroidered-white-pants-in-a-warm-boutique-interior.webp
+?? public/photoshoot/509-pants-with-chikankari/embroidered-white-textile-with-jasmine-and-brass-accents.webp
+?? public/photoshoot/509-pants-with-chikankari/white-embroidered-straight-pants-flat-lay.webp
+?? public/photoshoot/510-gold-yellow-georgette-full-work-chikankari-kurta/embroidered-mustard-kurta-display.webp
+?? public/photoshoot/510-hot-chocolate-georgette-full-work-chikankari-kurta/embroidered-mauve-kurta-in-warm-studio-light-1.webp
+?? public/photoshoot/510-vintage-rose-pink-georgette-full-work-chikankari-kurta/dusty-rose-embroidered-kurta-display.webp
+?? public/photoshoot/510-wildberry-purple-georgette-full-work-chikankari-kurta/mauve-embroidered-kurta-on-brass-rack.webp
+?? scripts/__pycache__/build-catalogue.cpython-314.pyc
+?? scripts/__pycache__/compare-catalogue.cpython-314.pyc
+?? scripts/__pycache__/gdrive_folder_download.cpython-314.pyc
+?? scripts/apply-photo-changes.py
+?? scripts/build-catalogue.py
+?? scripts/compare-catalogue.py
+?? scripts/create-contact-sheets.mjs
+?? scripts/out/contact-sheets/101.jpg
+?? scripts/out/contact-sheets/104.jpg
+?? scripts/out/contact-sheets/105.jpg
+?? scripts/out/contact-sheets/106.jpg
+?? scripts/out/contact-sheets/110.jpg
+?? scripts/out/contact-sheets/118.jpg
+?? scripts/out/contact-sheets/119.jpg
+?? scripts/out/contact-sheets/121.jpg
+?? scripts/out/contact-sheets/127.jpg
+?? scripts/out/contact-sheets/131.jpg
+?? scripts/out/contact-sheets/132.jpg
+?? scripts/out/contact-sheets/133.jpg
+?? scripts/out/contact-sheets/134.jpg
+?? scripts/out/contact-sheets/135.jpg
+?? scripts/out/contact-sheets/136.jpg
+?? scripts/out/contact-sheets/137.jpg
+?? scripts/out/contact-sheets/138.jpg
+?? scripts/out/contact-sheets/139.jpg
+?? scripts/out/contact-sheets/140.jpg
+?? scripts/out/contact-sheets/141.jpg
+?? scripts/out/contact-sheets/142.jpg
+?? scripts/out/contact-sheets/501.jpg
+?? scripts/out/contact-sheets/502.jpg
+?? scripts/out/contact-sheets/503.jpg
+?? scripts/out/contact-sheets/504.jpg
+?? scripts/out/contact-sheets/505.jpg
+?? scripts/out/contact-sheets/506.jpg
+?? scripts/out/contact-sheets/507.jpg
+?? scripts/out/contact-sheets/508.jpg
+?? scripts/out/contact-sheets/509.jpg
+?? scripts/out/contact-sheets/510.jpg
+?? scripts/out/contact-sheets/candidates.json
+Raw Drive downloads:
+E:\vscode\rumi\raw-photos\112 - Pastel Blue Chanderi Silk Chikankari Kurta\direct\Light Blue Embroidered Kurta Display.png
+E:\vscode\rumi\raw-photos\510 - Hot Chocolate Georgette Full Work Chikankari Kurta\direct\Embroidered Mauve Kurta in Warm Studio Light (1).png
+E:\vscode\rumi\raw-photos\510 - Vintage Rose Pink Georgette Full Work Chikankari Kurta\direct\Dusty Rose Embroidered Kurta Display.png
+E:\vscode\rumi\raw-photos\510 - Wildberry Purple Georgette Full Work Chikankari Kurta\direct\Mauve Embroidered Kurta on Brass Rack.png
+E:\vscode\rumi\raw-photos\510 - Gold Yellow Georgette Full Work Chikankari Kurta\direct\Embroidered Mustard Kurta Display.png
+This manifest: data/worktree-changes.txt

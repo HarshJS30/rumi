@@ -31,7 +31,7 @@ export default function ProductDetail({ product }: { product: Product }) {
     `Set: ${selectedSet?.name ?? "Please advise"}`,
     ...(selectedSize ? [`Size: ${selectedSize}`] : []),
     `Quantity: ${quantity}`,
-    `Price: ${formatPrice(price * quantity)}`,
+    `Price: ${formatPrice(price === undefined ? undefined : price * quantity)}`,
     `Product: ${product.slug}`,
   ].join("\n");
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(orderMessage)}`;
@@ -60,7 +60,7 @@ export default function ProductDetail({ product }: { product: Product }) {
                 sizes="(max-width: 760px) 100vw, 56vw"
               />
             ) : (
-              <div className="missing-product-image">Photograph coming soon</div>
+              <div className="missing-product-image">Photos coming soon</div>
             )}
             {product.images.length > 1 && (
               <>
@@ -102,13 +102,13 @@ export default function ProductDetail({ product }: { product: Product }) {
         </section>
 
         <section className="product-info">
-          <p className="eyebrow">Rumi Studio · {product.category}</p>
+          <p className="eyebrow">Rumi Studio{product.category && <> · {product.category}</>}</p>
           <h1>{product.websiteName}</h1>
-          <p className="detail-color">{product.color}</p>
+          {product.color && <p className="detail-color">{product.color}</p>}
           <p className="detail-price">{formatPrice(price)}</p>
           <p className="tax-note">Prices are in Indian Rupees.</p>
 
-          <fieldset className="set-picker">
+          {product.setOptions.length > 0 && <fieldset className="set-picker">
             <legend>Sets</legend>
             <div className="set-options">
               {product.setOptions.map((option) => (
@@ -132,31 +132,29 @@ export default function ProductDetail({ product }: { product: Product }) {
                 </label>
               ))}
             </div>
-          </fieldset>
+          </fieldset>}
+
+          {product.size?.toLowerCase() === "freesize" && <p className="detail-color">Size: Free size</p>}
 
           {product.sizes.length > 0 && (
-            <fieldset className="set-picker">
+            <fieldset className="set-picker size-picker">
               <legend>Size</legend>
-              <div className="set-options">
+              <div className="size-options">
                 {product.sizes.map(({ size, bookable }) => (
                   <label
                     key={size}
-                    className={
-                      size === selectedSize
-                        ? "set-option selected"
-                        : "set-option"
-                    }
+                    className={`size-option${size === selectedSize ? " selected" : ""}${bookable ? "" : " unavailable"}`}
                   >
                     <input
                       type="radio"
                       name={`product-size-${product.id}`}
                       value={size}
+                      aria-label={`Size ${size}${bookable ? "" : " unavailable"}`}
                       checked={size === selectedSize}
                       disabled={!bookable}
                       onChange={() => setSelectedSize(size)}
                     />
                     <span>{size}</span>
-                    {!bookable && <small>Unavailable</small>}
                   </label>
                 ))}
               </div>
@@ -223,30 +221,19 @@ export default function ProductDetail({ product }: { product: Product }) {
             <h2 id="details-title">Product details</h2>
             <table>
               <tbody>
-                <tr>
-                  <th scope="row">Fabric</th>
-                  <td>{product.fabric}</td>
-                </tr>
-                <tr>
-                  <th scope="row">Colour</th>
-                  <td>{product.color}</td>
-                </tr>
-                <tr>
-                  <th scope="row">Silhouette</th>
-                  <td>{product.silhouette}</td>
-                </tr>
-                <tr>
-                  <th scope="row">Pattern</th>
-                  <td>{product.pattern}</td>
-                </tr>
-                <tr>
-                  <th scope="row">Dyeable</th>
-                  <td>{product.dyeable ? "Yes" : "No"}</td>
-                </tr>
-                <tr>
-                  <th scope="row">Length</th>
-                  <td>{product.length}</td>
-                </tr>
+                {[
+                  ["Fabric", product.fabric],
+                  ["Colour", product.color],
+                  ["Silhouette", product.silhouette],
+                  ["Pattern", product.pattern],
+                  ["Dyeable", product.dyeable === undefined ? undefined : product.dyeable ? "Yes" : "No"],
+                  ["Length", product.length],
+                ].filter(([, value]) => value !== undefined && value !== "").map(([label, value]) => (
+                  <tr key={label}>
+                    <th scope="row">{label}</th>
+                    <td>{value}</td>
+                  </tr>
+                ))}
               </tbody>
             </table>
           </section>
@@ -327,6 +314,7 @@ export default function ProductDetail({ product }: { product: Product }) {
                     fill
                     sizes="(max-width: 640px) 48vw, (max-width: 1024px) 32vw, 24vw"
                   />
+                  {!related.available && <span className="sold-label">Sold out</span>}
                 </Link>
                 <div className="product-meta">
                   <Link
@@ -338,7 +326,7 @@ export default function ProductDetail({ product }: { product: Product }) {
                   <span>{formatPrice(related.basePrice)}</span>
                 </div>
                 <p className="product-detail-meta">
-                  {related.color} · {related.category}
+                  {[related.color, related.category].filter(Boolean).join(" · ")}
                 </p>
               </article>
             ))}

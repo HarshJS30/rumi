@@ -5,22 +5,12 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./Hero.module.css";
 
-const slides = [
-  {
-    image: "/pink_anarkali_1.png",
-    label: "New Arrivals",
-  },
-  {
-    image: "/anarkali_white_heavy_1.png",
-    label: "Festive Edit",
-  },
-  {
-    image: "/kota_chicken_pink_green_1.png",
-    label: "Summer Collection",
-  },
-];
+const slides = Array.from({ length: 12 }, (_, index) => ({
+  image: `/hero-carousel/hero-${index + 1}.png`,
+  label: `Rumi collection poster ${index + 1}`,
+}));
 
-const DURATION = 4000;
+const DURATION = 5000;
 
 export default function Hero() {
   const [active, setActive] = useState(0);
@@ -32,13 +22,8 @@ export default function Hero() {
     return () => clearInterval(timer);
   }, []);
 
-  const goTo = (index) => {
-    if (index === active) return;
-    setActive(index);
-  };
-
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} aria-label="Featured collections">
       <div className={styles.imageWrap}>
         <Image
           key={active}
@@ -46,31 +31,23 @@ export default function Hero() {
           alt={slides[active].label}
           fill
           sizes="100vw"
-          preload={active === 0}
+          priority={active === 0}
           className={styles.image}
         />
-        <div className={styles.scrim} />
 
-        <div className={styles.content}>
-          <span className={styles.eyebrow}>{slides[active].label}</span>
-          <h1 className={styles.heading}>
-            Fashion Woven<br />With Heritage
-          </h1>
-          <p className={styles.sub}>
-            Handcrafted Lucknowi Chikankari — elegance in every stitch.
-          </p>
-          <Link href="/shop" className={styles.cta}>
-            View whole collection
-          </Link>
-        </div>
+        <Link href="/shop" className={styles.cta}>
+          View whole collection
+        </Link>
 
-        <div className={styles.dots}>
-          {slides.map((_, i) => (
+        <div className={styles.dots} aria-label="Choose a collection poster">
+          {slides.map((slide, index) => (
             <button
-              key={i}
-              className={`${styles.dot} ${i === active ? styles.dotActive : ""}`}
-              onClick={() => goTo(i)}
-              aria-label={`Go to slide ${i + 1}`}
+              key={slide.image}
+              type="button"
+              className={`${styles.dot} ${index === active ? styles.dotActive : ""}`}
+              onClick={() => setActive(index)}
+              aria-label={`Go to poster ${index + 1}`}
+              aria-current={index === active ? "true" : undefined}
             />
           ))}
         </div>

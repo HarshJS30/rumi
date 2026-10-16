@@ -1,0 +1,452 @@
+{
+  "rows": 80,
+  "products": 77,
+  "mergedDuplicates": {
+    "127 | Unisex White Lawn Cotton Kurta Fabric with Chikankari": 2,
+    "506 | Men's Stitched Cotton Chikankari Full Work Kurta": 2,
+    "118 | White Kota Cotton with Coloured Thread Chikankari Embroidery": 2
+  },
+  "productsWithoutFolder": [],
+  "productsWithoutPhotos": [],
+  "foldersWithoutProduct": [
+    "114 - Dupatta with Chikankari",
+    "115 - Pants with Chikankari",
+    "118 - White Kota Cotton with Coloured Thread Chikankari Embroidery - Sold",
+    "119 - Peach Mul Straight Kurta set with Embellished Neckline - Sold"
+  ],
+  "originalFallbacks": [],
+  "missingFields": [
+    {
+      "row": 1,
+      "field": "New Article Number",
+      "websiteName": "101 | Lavender Mul A Line with Chikankari Pearl & Cut Dana"
+    },
+    {
+      "row": 2,
+      "field": "New Article Number",
+      "websiteName": "104 | Coral Peach Mul chikankari Straight Suit"
+    },
+    {
+      "row": 3,
+      "field": "New Article Number",
+      "websiteName": "104 | Navy Blue Mul Chikankari Straight Suit"
+    },
+    {
+      "row": 4,
+      "field": "New Article Number",
+      "websiteName": "104 | Peach Mul Chikankari Straight Suit"
+    },
+    {
+      "row": 5,
+      "field": "New Article Number",
+      "websiteName": "104 | Pink Mul Chikankari Straight Suit"
+    },
+    {
+      "row": 6,
+      "field": "New Article Number",
+      "websiteName": "104 | Red Mul chikankari Straight Suit"
+    },
+    {
+      "row": 7,
+      "field": "New Article Number",
+      "websiteName": "105 | Baby Pink chikankari A Line Suit with Mukaish Work"
+    },
+    {
+      "row": 8,
+      "field": "New Article Number",
+      "websiteName": "106 | Blue Straight Panel with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 9,
+      "field": "New Article Number",
+      "websiteName": "106 | Lemon Straight Panel with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 10,
+      "field": "New Article Number",
+      "websiteName": "106 | Peach Straight Panel with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 11,
+      "field": "New Article Number",
+      "websiteName": "106 | Pink Straight Panel with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 12,
+      "field": "New Article Number",
+      "websiteName": "106 | Teal Straight Panel with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 13,
+      "field": "New Article Number",
+      "websiteName": "110 | Tissue with Thread Chikankari Work"
+    },
+    {
+      "row": 14,
+      "field": "New Article Number",
+      "websiteName": "118 | Powder Blue Kota Cotton with Chikankari Embroidery"
+    },
+    {
+      "row": 15,
+      "field": "New Article Number",
+      "websiteName": "118 | White Kota Cotton with Coloured Thread Chikankari Embroidery"
+    },
+    {
+      "row": 16,
+      "field": "New Article Number",
+      "websiteName": "118 | White Kota Cotton with Coloured Thread Chikankari Embroidery"
+    },
+    {
+      "row": 17,
+      "field": "New Article Number",
+      "websiteName": "119 | Lilac Mul Straight Kurta Set with Embellished Neckline"
+    },
+    {
+      "row": 18,
+      "field": "New Article Number",
+      "websiteName": "119 | Powder Blue Mul Straight Kurta Set with Embellished Neckline"
+    },
+    {
+      "row": 19,
+      "field": "New Article Number",
+      "websiteName": "119 | Teal Mist Mul Straight Kurta Set with Embellished Neckline"
+    },
+    {
+      "row": 20,
+      "field": "New Article Number",
+      "websiteName": "121 | Purple Mul Kaftan with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 21,
+      "field": "New Article Number",
+      "websiteName": "121 | Sea Green Mul Kaftan with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 22,
+      "field": "New Article Number",
+      "websiteName": "127 | Unisex White Lawn Cotton Kurta Fabric with Chikankari"
+    },
+    {
+      "row": 23,
+      "field": "New Article Number",
+      "websiteName": "127 | Unisex White Lawn Cotton Kurta Fabric with Chikankari"
+    },
+    {
+      "row": 24,
+      "field": "New Article Number",
+      "websiteName": "131 | Light Wine Kota Straight Suit with Applique Work"
+    },
+    {
+      "row": 25,
+      "field": "New Article Number",
+      "websiteName": "132 | Peach Mul Chikankari with Neckline Kali"
+    },
+    {
+      "row": 26,
+      "field": "New Article Number",
+      "websiteName": "132 | Red Mul Chikankari with Neckline Kali"
+    },
+    {
+      "row": 27,
+      "field": "New Article Number",
+      "websiteName": "133 | Blush Peach Organza Suit with Pitta Work"
+    },
+    {
+      "row": 28,
+      "field": "New Article Number",
+      "websiteName": "133 | Powder Blue Organza Suit with Pitta Work"
+    },
+    {
+      "row": 29,
+      "field": "New Article Number",
+      "websiteName": "134 | Baby Pink Anarkali in Mul with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 30,
+      "field": "New Article Number",
+      "websiteName": "134 | Daisy Yellow Anarkali in Mul with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 31,
+      "field": "New Article Number",
+      "websiteName": "135 | White Anarkali in Mul with Chikankari, Pearl & Cut Dana (Flower Design)"
+    },
+    {
+      "row": 32,
+      "field": "New Article Number",
+      "websiteName": "135 | White Anarkali in Mul with Chikankari, Pearl & Cut Dana (Leaf Design)"
+    },
+    {
+      "row": 33,
+      "field": "New Article Number",
+      "websiteName": "136 | White Angrakha in Mul with red & Black Chikankari"
+    },
+    {
+      "row": 34,
+      "field": "New Article Number",
+      "websiteName": "137 | Apricot Peach Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace"
+    },
+    {
+      "row": 35,
+      "field": "New Article Number",
+      "websiteName": "137 | Mehndi Green Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace"
+    },
+    {
+      "row": 36,
+      "field": "New Article Number",
+      "websiteName": "137 | Peach Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace"
+    },
+    {
+      "row": 37,
+      "field": "New Article Number",
+      "websiteName": "137 | Powder Blue Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace"
+    },
+    {
+      "row": 38,
+      "field": "New Article Number",
+      "websiteName": "137 | Sage Green Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace"
+    },
+    {
+      "row": 39,
+      "field": "New Article Number",
+      "websiteName": "137 | Yellow Mul Straight Panel with Chikankari, Pearl, Cut Dana & Lace"
+    },
+    {
+      "row": 40,
+      "field": "New Article Number",
+      "websiteName": "138 | Peach Mul A Line Chikankari with Mukaish"
+    },
+    {
+      "row": 41,
+      "field": "New Article Number",
+      "websiteName": "138 | Purple Mul A Line Chikankari with Mukaish"
+    },
+    {
+      "row": 42,
+      "field": "New Article Number",
+      "websiteName": "138 | Yellow Mul A Line Chikankari with Mukaish"
+    },
+    {
+      "row": 43,
+      "field": "New Article Number",
+      "websiteName": "139 | Pink Pure Organza with Chikankari & Mukaish"
+    },
+    {
+      "row": 44,
+      "field": "New Article Number",
+      "websiteName": "140 | Leafy Green Mul Straight Suit with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 45,
+      "field": "New Article Number",
+      "websiteName": "140 | Orchid Mauve Mul Straight Suit with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 46,
+      "field": "New Article Number",
+      "websiteName": "140 | White Mul Straight Suit with Chikankari, Pearl & Cut Dana"
+    },
+    {
+      "row": 47,
+      "field": "New Article Number",
+      "websiteName": "141 | Yellow Mul Straight Suit with Chikankari Jaali"
+    },
+    {
+      "row": 48,
+      "field": "New Article Number",
+      "websiteName": "142 | Celtic Blue Mul A Line Suit with Mukaish & Pitta Work"
+    },
+    {
+      "row": 49,
+      "field": "New Article Number",
+      "websiteName": "142 | Emerald Green Mul A Line Suit with Mukaish & Pitta Work"
+    },
+    {
+      "row": 50,
+      "field": "New Article Number",
+      "websiteName": "142 | Midnight Black Mul A Line Suit with Mukaish & Pitta Work"
+    },
+    {
+      "row": 51,
+      "field": "New Article Number",
+      "websiteName": "142 | Scarlet Red Mul A Line Suit with Mukaish & Pitta Work"
+    },
+    {
+      "row": 52,
+      "field": "Length",
+      "websiteName": "501 | Baby Pink Cotton Chikankari Kurta"
+    },
+    {
+      "row": 53,
+      "field": "Length",
+      "websiteName": "501 | Mint Green Cotton Chikankari Kurta"
+    },
+    {
+      "row": 54,
+      "field": "Length",
+      "websiteName": "501 | Off White Cotton Chikankari Kurta"
+    },
+    {
+      "row": 55,
+      "field": "Length",
+      "websiteName": "501 | Pale Yellow Cotton Chikankari Kurta"
+    },
+    {
+      "row": 56,
+      "field": "Length",
+      "websiteName": "501 | Sky Blue Cotton Chikankari Kurta"
+    },
+    {
+      "row": 57,
+      "field": "Length",
+      "websiteName": "502 | Light Sea Green Chanderi Silk Chikankari Kurta"
+    },
+    {
+      "row": 58,
+      "field": "Length",
+      "websiteName": "502 | Lilac Chanderi Silk Chikankari Kurta"
+    },
+    {
+      "row": 59,
+      "field": "Length",
+      "websiteName": "502 | Olive Green Chanderi Silk Chikankari Kurta"
+    },
+    {
+      "row": 60,
+      "field": "Length",
+      "websiteName": "502 | Pastel Blue Chanderi Silk Chikankari Kurta"
+    },
+    {
+      "row": 61,
+      "field": "Length",
+      "websiteName": "502 | Pastel Yellow Chanderi Silk Chikankari Kurta"
+    },
+    {
+      "row": 62,
+      "field": "Length",
+      "websiteName": "502 | Peach Chanderi Silk Chikankari Kurta"
+    },
+    {
+      "row": 63,
+      "field": "Length",
+      "websiteName": "503 | Carbon Black Chanderi Silk Chikankari Short Kurti"
+    },
+    {
+      "row": 64,
+      "field": "Length",
+      "websiteName": "503 | Cherry Red Chanderi Silk Chikankari Short Kurti"
+    },
+    {
+      "row": 65,
+      "field": "Length",
+      "websiteName": "503 | Dark Wine Chanderi Silk Chikankari Short Kurti"
+    },
+    {
+      "row": 66,
+      "field": "Length",
+      "websiteName": "503 | Mehndi Green Chanderi Silk Chikankari Short Kurti"
+    },
+    {
+      "row": 67,
+      "field": "Length",
+      "websiteName": "503 | Metal Grey Chanderi Silk Chikankari Short Kurti"
+    },
+    {
+      "row": 68,
+      "field": "Length",
+      "websiteName": "503 | Pink Chanderi Silk Chikankari Short Kurti"
+    },
+    {
+      "row": 69,
+      "field": "Length",
+      "websiteName": "504 | Ferrari Red Cotton Full Work Chikankari Kurta"
+    },
+    {
+      "row": 70,
+      "field": "Length",
+      "websiteName": "505 | Men's Cotton Kurta with Chikankari Chhadi Work"
+    },
+    {
+      "row": 73,
+      "field": "Length",
+      "websiteName": "507 | Baby Pink Cotton Chikankari Kurta"
+    },
+    {
+      "row": 74,
+      "field": "Length",
+      "websiteName": "507 | Sky Blue Cotton Chikankari Kurta"
+    },
+    {
+      "row": 75,
+      "field": "Length",
+      "websiteName": "508 | Dupatta with chikankari"
+    },
+    {
+      "row": 76,
+      "field": "Length",
+      "websiteName": "509 | Pants with Chikankari"
+    },
+    {
+      "row": 77,
+      "field": "Article",
+      "websiteName": "510 | Hot Chocolate Georgette Full Work Chikankari Kurta"
+    },
+    {
+      "row": 77,
+      "field": "Length",
+      "websiteName": "510 | Hot Chocolate Georgette Full Work Chikankari Kurta"
+    },
+    {
+      "row": 78,
+      "field": "Article",
+      "websiteName": "510 | Vintage Rose Pink Georgette Full Work Chikankari Kurta"
+    },
+    {
+      "row": 78,
+      "field": "Length",
+      "websiteName": "510 | Vintage Rose Pink Georgette Full Work Chikankari Kurta"
+    },
+    {
+      "row": 79,
+      "field": "Article",
+      "websiteName": "510 | Wildberry Purple Georgette Full Work Chikankari Kurta"
+    },
+    {
+      "row": 79,
+      "field": "Length",
+      "websiteName": "510 | Wildberry Purple Georgette Full Work Chikankari Kurta"
+    },
+    {
+      "row": 80,
+      "field": "Article",
+      "websiteName": "510 | Gold Yellow Georgette Full Work Chikankari Kurta"
+    },
+    {
+      "row": 80,
+      "field": "Length",
+      "websiteName": "510 | Gold Yellow Georgette Full Work Chikankari Kurta"
+    }
+  ],
+  "priceWarnings": [
+    {
+      "product": "142 | Celtic Blue Mul A Line Suit with Mukaish & Pitta Work",
+      "message": "MRP sheet=6950 override=7200; Price Option 1 sheet=6950 override=7200",
+      "overrideFile": "data/price-overrides.json"
+    },
+    {
+      "product": "142 | Emerald Green Mul A Line Suit with Mukaish & Pitta Work",
+      "message": "MRP sheet=6950 override=7200; Price Option 1 sheet=6950 override=7200",
+      "overrideFile": "data/price-overrides.json"
+    },
+    {
+      "product": "142 | Midnight Black Mul A Line Suit with Mukaish & Pitta Work",
+      "message": "MRP sheet=6950 override=7200; Price Option 1 sheet=6950 override=7200",
+      "overrideFile": "data/price-overrides.json"
+    },
+    {
+      "product": "142 | Scarlet Red Mul A Line Suit with Mukaish & Pitta Work",
+      "message": "MRP sheet=6950 override=7200; Price Option 1 sheet=6950 override=7200",
+      "overrideFile": "data/price-overrides.json"
+    }
+  ]
+}

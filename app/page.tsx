@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import NewArrivals from "../components/NewArrivals";
@@ -5,6 +6,7 @@ import WomensWear from "../components/WomensWear";
 import MensWear from "../components/MensWear";
 import Testimonials from "../components/Testimonials";
 import HomeFooter from "../components/HomeFooter";
+import BestSellers from "../components/BestSellers";
 
 export default function HomePage() {
   return (
@@ -12,6 +14,7 @@ export default function HomePage() {
       <Navbar />
       <Hero />
 
+      <BestSellers />
       <NewArrivals />
       <WomensWear />
       <MensWear />
@@ -79,9 +82,13 @@ export default function HomePage() {
           <article className="founder-card">
             <div className="founder-identity">
               <figure className="founder-photo-placeholder">
-                <div className="founder-photo-placeholder-frame" aria-hidden="true">
-                  <span>Founder portrait</span>
-                </div>
+                <Image
+                  className="founder-photo"
+                  src="/madeeha.png"
+                  alt="Madeeha Naaz, founder of Rumi"
+                  fill
+                  sizes="(max-width: 680px) 80vw, 260px"
+                />
               </figure>
               <p className="story-label">Founder, Rumi Ethnic</p>
               <h3>Madeeha Naaz</h3>

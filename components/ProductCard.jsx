@@ -15,14 +15,19 @@ export default function ProductCard({ product }) {
     <article className={styles.card}>
       <Link href={href} className={styles.imageLink} aria-label={name}>
         <div className={styles.imageWrap}>
-          <Image
-            src={product.images[0]}
-            alt={name}
-            fill
-            sizes="(min-width: 768px) 260px, 43vw"
-            className={`${styles.image} ${styles.imageBase}`}
-          />
-          {product.images[1] && (
+          {product.images[0] ? (
+            <Image
+              src={product.images[0]}
+              alt={name}
+              fill
+              sizes="(min-width: 768px) 260px, 43vw"
+              className={`${styles.image} ${styles.imageBase}`}
+            />
+          ) : (
+            <span className={styles.placeholder}>Photos coming soon</span>
+          )}
+          {!product.available && <span className={styles.soldLabel}>Sold out</span>}
+          {product.images[0] && product.images[1] && (
             <Image
               src={product.images[1]}
               alt=""
@@ -40,7 +45,7 @@ export default function ProductCard({ product }) {
           {name}
         </Link>
 
-        {(product.sizes.length > 0 || product.size.toLowerCase() === "freesize") && (
+        {(product.sizes.length > 0 || product.size?.toLowerCase() === "freesize") && (
           <div className={styles.sizes} role="group" aria-label="Available sizes">
             {product.sizes.length > 0
               ? product.sizes.map(({ size, bookable }) => (
@@ -52,7 +57,7 @@ export default function ProductCard({ product }) {
                     }`}
                     aria-label={`Size ${size}${bookable ? "" : " unavailable"}`}
                     aria-pressed={selectedSize === size}
-                    disabled={!bookable}
+                    disabled={!product.available || !bookable}
                     onClick={() => setSelectedSize(size)}
                   >
                     {size}

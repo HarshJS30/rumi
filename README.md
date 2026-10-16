@@ -29,7 +29,7 @@ node scripts/optimize-photos.mjs
 node scripts/build-catalogue.mjs
 ```
 
-Commit and deploy the generated `public/photoshoot`, `data/photoshoot.json`, and `data/catalogue.json` files with the script changes.
+Commit the generated `public/photoshoot`, `data/photoshoot.json`, and `data/catalogue.json` files with the script changes. The Vercel upload exclusions in `.vercelignore` omit source sheets, diagnostics, photo-generation tooling, and unused legacy photos, while keeping the runtime catalogue, cover overrides, and storefront images.
 
 ## Learn More
 
