@@ -6,11 +6,12 @@ export default function NewArrivals() {
   const items = getDistinctCollectionProducts("new-arrival", ["best-seller"]);
   return (
     <ProductSection
-      eyebrow="New Arrivals"
       sectionId="new-arrivals"
-      heading="This Season's Edit"
+      eyebrow="This Season's Edit"
+      heading="New Arrivals"
       sub="Freshly embroidered, freshly arrived — the newest additions to the collection."
       products={items}
+      showSizes={false}
       viewAllHref="/shop"
       viewAllLabel="View whole collection"
     />

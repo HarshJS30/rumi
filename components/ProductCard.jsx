@@ -6,7 +6,7 @@ import { useState } from "react";
 import { formatPrice } from "../lib/products";
 import styles from "./ProductCard.module.css";
 
-export default function ProductCard({ product }) {
+export default function ProductCard({ product, showSizes = true }) {
   const [selectedSize, setSelectedSize] = useState(null);
   const href = `/products/${product.slug}`;
   const name = product.name;
@@ -42,30 +42,31 @@ export default function ProductCard({ product }) {
 
       <div className={styles.info}>
         <Link href={href} className={styles.name}>
-          {name}
+          <span className={styles.nameText}>{name}</span>
         </Link>
 
-        {(product.sizes.length > 0 || product.size?.toLowerCase() === "freesize") && (
-          <div className={styles.sizes} role="group" aria-label="Available sizes">
-            {product.sizes.length > 0
-              ? product.sizes.map(({ size, bookable }) => (
-                  <button
-                    key={size}
-                    type="button"
-                    className={`${styles.sizePill} ${
-                      selectedSize === size ? styles.sizePillActive : ""
-                    }`}
-                    aria-label={`Size ${size}${bookable ? "" : " unavailable"}`}
-                    aria-pressed={selectedSize === size}
-                    disabled={!product.available || !bookable}
-                    onClick={() => setSelectedSize(size)}
-                  >
-                    {size}
-                  </button>
-                ))
-              : <span className={styles.sizePill}>Free size</span>}
-          </div>
-        )}
+        {showSizes &&
+          (product.sizes.length > 0 || product.size?.toLowerCase() === "freesize") && (
+            <div className={styles.sizes} role="group" aria-label="Available sizes">
+              {product.sizes.length > 0
+                ? product.sizes.map(({ size, bookable }) => (
+                    <button
+                      key={size}
+                      type="button"
+                      className={`${styles.sizePill} ${
+                        selectedSize === size ? styles.sizePillActive : ""
+                      }`}
+                      aria-label={`Size ${size}${bookable ? "" : " unavailable"}`}
+                      aria-pressed={selectedSize === size}
+                      disabled={!product.available || !bookable}
+                      onClick={() => setSelectedSize(size)}
+                    >
+                      {size}
+                    </button>
+                  ))
+                : <span className={styles.sizePill}>Free size</span>}
+            </div>
+          )}
 
         <span className={styles.price}>{formatPrice(product.basePrice)}</span>
 

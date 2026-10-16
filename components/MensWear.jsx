@@ -6,11 +6,12 @@ export default function MensWear() {
   const items = getDistinctCollectionProducts("men", ["best-seller", "new-arrival", "women"]);
   return (
     <ProductSection
-      eyebrow="For Him"
       sectionId="mens-edit"
-      heading="The Men's Edit"
+      eyebrow="The Men's Edit"
+      heading="For Him"
       sub="Understated craftsmanship for the modern man."
       products={items}
+      showSizes={false}
       viewAllHref="/shop"
       viewAllLabel="View whole collection"
     />

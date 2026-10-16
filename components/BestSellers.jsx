@@ -11,11 +11,12 @@ export default function BestSellers() {
 
   return (
     <ProductSection
-      eyebrow="Best Sellers"
       sectionId="best-sellers"
-      heading="Loved by You"
+      eyebrow="Loved by You"
+      heading="Best Sellers"
       sub="Pieces chosen for their thoughtful details and lasting craftsmanship."
       products={orderedItems}
+      showSizes={false}
       viewAllHref="/shop"
       viewAllLabel="View whole collection"
     />

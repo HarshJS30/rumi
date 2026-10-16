@@ -14,6 +14,7 @@ export default function ProductSection({
   viewAllHref,
   viewAllLabel = "View All",
   sectionId,
+  showSizes = true,
 }) {
   const scrollRowRef = useRef(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
@@ -65,7 +66,11 @@ export default function ProductSection({
         <div className={styles.scrollRow} ref={scrollRowRef}>
           <div className={styles.scrollTrack}>
             {products.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard
+                key={product.id}
+                product={product}
+                showSizes={showSizes}
+              />
             ))}
           </div>
         </div>

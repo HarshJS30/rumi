@@ -6,11 +6,12 @@ export default function WomensWear() {
   const items = getDistinctCollectionProducts("women", ["best-seller", "new-arrival"]);
   return (
     <ProductSection
-      eyebrow="For Her"
       sectionId="womens-edit"
-      heading="The Women's Edit"
+      eyebrow="The Women's Edit"
+      heading="For Her"
       sub="Hand-embroidered Chikankari sets designed for everyday elegance."
       products={items}
+      showSizes={false}
       viewAllHref="/shop"
       viewAllLabel="View whole collection"
     />

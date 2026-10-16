@@ -77,16 +77,28 @@
   padding-top: 10px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 4px;
 }
 
 .name {
+  display: flex;
+  align-items: flex-start;
+  height: calc(1.35em * 3);
+  margin-bottom: 4px;
+  overflow: hidden;
   font-family: 'Jost', sans-serif;
   font-weight: 400;
   font-size: 13px;
   line-height: 1.35;
   color: #2c1f14;
   text-decoration: none;
+}
+
+.nameText {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
 }
 
 .name:hover {
@@ -125,7 +137,7 @@
 }
 
 .price {
-  margin-top: auto;
+  margin-top: 0;
   font-family: 'Montserrat', sans-serif;
   font-size: 13px;
   font-weight: 500;
@@ -133,6 +145,7 @@
 }
 
 .addToCart {
+  margin-top: auto;
   appearance: none;
   width: 100%;
   font-family: 'Montserrat', sans-serif;
@@ -162,10 +175,6 @@
     min-height: 96px;
     gap: 4px;
   }
-
-  .price {
-    margin-top: auto;
-  }
 }
 
 @media (min-width: 768px) {
@@ -175,7 +184,7 @@
 
   .info {
     padding-top: 14px;
-    gap: 10px;
+    gap: 4px;
   }
 
   .name {
